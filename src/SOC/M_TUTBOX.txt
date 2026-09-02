@@ -1,0 +1,122 @@
+freeslot
+MT_TUTOUN_BOX
+MT_TUTOUN_GOLDBOX
+MT_TUTOUN_ICON
+S_TUTOUN_BOX
+S_TUTOUN_GOLDBOX
+S_TUTOUN_ICON1
+S_TUTOUN_ICON2
+SPR_TVTU
+
+Object MT_TUTOUN_BOX
+#$Name Tutorial Monitor
+#$Sprite TVTUA0
+#$Category Mod Stuff
+#$NotAngled
+MapThingNum = 3454
+SpawnHealth = 1
+SpawnState = S_TUTOUN_BOX
+SeeState = S_NULL
+SeeSound = sfx_none
+AttackSound = sfx_none
+MeleeState = S_NULL
+MissileState = S_NULL
+DeathState = S_BOX_POP1
+XDeathState = S_NULL
+DeathSound = sfx_pop
+ActiveSound = sfx_none
+ReactionTime = 50
+PainChance = 0
+Speed = 1
+Radius = 18*FRACUNIT
+Height = 40*FRACUNIT
+DispOffset = 0
+Mass = 100
+Damage = MT_TUTOUN_ICON
+Flags = MF_SOLID|MF_SHOOTABLE|MF_MONITOR
+
+State S_TUTOUN_BOX
+SpriteName = TVTU
+SpriteFrame = A
+Duration = 2
+Action = none
+Var1 = 0
+Var2 = 0
+Next = S_BOX_FLICKER
+
+Object MT_TUTOUN_ICON
+MapThingNum = -1
+SpawnHealth = 1
+SpawnState = S_TUTOUN_ICON1
+SeeState = S_NULL
+SeeSound = sfx_itemup
+AttackSound = sfx_none
+MeleeState = S_NULL
+MissileState = S_NULL
+DeathState = S_NULL
+XDeathState = S_NULL
+DeathSound = sfx_pop
+ActiveSound = sfx_none
+ReactionTime = 1
+PainChance = 0
+Speed = 2*FRACUNIT
+Radius = 8*FRACUNIT
+Height = 14*FRACUNIT
+DispOffset = 0
+Mass = 100
+Damage = 62*FRACUNIT
+Flags = MF_NOBLOCKMAP|MF_NOCLIP|MF_SCENERY|MF_NOGRAVITY|MF_BOXICON
+
+State S_TUTOUN_ICON1
+SpriteName = TVTU
+SpriteFrame = FF_ANIMATE|C
+Duration = 18
+Action = none
+Var1 = 3
+Var2 = 4
+Next = S_TUTOUN_ICON2
+
+State S_TUTOUN_ICON2
+SpriteName = TVTU
+SpriteFrame = C
+Duration = 18
+Action = A_RingBox
+Var1 = 0
+Var2 = 0
+Next = S_NULL
+
+Object MT_TUTOUN_GOLDBOX
+#$Name Tutorial Monitor (Respawn)
+#$Sprite TVTUB0
+#$Category Mod Stuff
+#$NotAngled
+MapThingNum = 3455
+SpawnHealth = 1
+SpawnState = S_TUTOUN_GOLDBOX
+SeeState = S_NULL
+SeeSound = sfx_none
+AttackSound = sfx_none
+MeleeState = S_NULL
+MissileState = S_NULL
+DeathState = S_GOLDBOX_OFF1
+XDeathState = S_NULL
+DeathSound = sfx_pop
+ActiveSound = sfx_none
+ReactionTime = 50
+PainChance = 0
+Speed = 1
+Radius = 20*FRACUNIT
+Height = 44*FRACUNIT
+DispOffset = 0
+Mass = 100
+Damage = MT_TUTOUN_ICON
+Flags = MF_SOLID|MF_SHOOTABLE|MF_MONITOR|MF_GRENADEBOUNCE
+
+State S_TUTOUN_GOLDBOX
+SpriteName = TVTU
+SpriteFrame = B
+Duration = 2
+Action = A_GoldMonitorSparkle
+Var1 = 0
+Var2 = 0
+Next = S_GOLDBOX_FLICKER

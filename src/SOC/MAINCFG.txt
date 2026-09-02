@@ -1,0 +1,1495 @@
+Maincfg Category
+GameData = srb2001-rq.dat
+UseBlackRock = true 
+CustomVersion = ^4SRB2001^0 ^5Re^0-^2Quested^0 ^Fv0.26
+LoopTitle = false
+UseContinues = true
+NumDemos = 0
+TitleScrollSpeed = 30
+TitlePicsMode = Alacroix
+TitlePicsScalesAvailable = 2,4,5
+TitleMap = Z0
+LoopTitle = false
+IntroToPlay = 128
+SStage_Start = B1
+SMPStage_Start = B1
+ShareEmblems = true
+TutorialMap = 0
+CreditsCutscene = 128
+RedTeam = SKINCOLOR_PEPPER
+RedRing = SKINCOLOR_PEPPER
+BlueTeam = SKINCOLOR_SAPPHIRE
+BlueRing = SKINCOLOR_SAPPHIRE
+
+Clear ConditionSets
+Clear Unlockables
+Clear ExtraEmblems
+Clear Emblems
+Clear Levels
+Clear All
+
+Level 99
+Levelname = Credits???
+Act = 0
+NoZone = true
+Keywords = CRED
+Music = CREDIS
+TypeOfLevel = Singleplayer,Co-op
+NextLevel = EVALUATION
+SkyNum = 1
+RecordAttack = false
+LevelSelect = 1
+SaveGame = true
+WideIcon = true
+NoSSMusic = true
+NoTitleCard = true
+MusicInter = _SUPCL
+
+Level Z0
+Levelname = Titlemap
+Act = 0
+NoZone = true
+Keywords = TITMAP
+Music = _TITLE
+NextLevel = EVALUATION
+SkyNum = 4
+NoTitleCard = true
+
+#--SNIGLEPLAYER STAGES--
+Level 1
+Levelname = Sunset Flowers
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 1
+Keywords = SFZ1
+Music = SFZ1
+NextLevel = 2
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+SkyNum = 4
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 2
+Levelname = Sunset Flowers
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 2
+Keywords = SFZ2
+Music = SFZ2
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 3
+SkyNum = 4
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 3
+Levelname = Sunset Flowers
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 3
+Keywords = SFZ3
+Music = VSALT
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 4
+SkyNum = 4
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+MusicPostBoss = SFZ1
+BonusType = Boss
+StartRings = 10
+ForceResetMusic = On
+WarningTitle = true
+
+Level 4
+Levelname = Forgotten Hardware
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 1
+Keywords = FHZ1
+Music = FHZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 5
+SkyNum = 6
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 5
+Levelname = Forgotten Hardware
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 2
+Keywords = FHZ2
+Music = FHZ2
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 6
+SkyNum = 6
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 6
+Levelname = Forgotten Hardware
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 3
+Keywords = FHZ3
+Music = VSALT
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 7
+SkyNum = 6
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+MusicPostBoss = FHZ1
+BonusType = Boss
+StartRings = 10
+ForceResetMusic = On
+WarningTitle = true
+
+Level 7
+Levelname = Drenched Caverns
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 1
+Keywords = DCZ1
+Music = DCZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 8
+SkyNum = 1
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 8
+Levelname = Drenched Caverns
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 2
+Keywords = DCZ2
+Music = DCZ2
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 9
+SkyNum = 1
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 9
+Levelname = Drenched Caverns
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 3
+Keywords = DCZ3
+Music = VSALT
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 10
+SkyNum = 1
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+MusicPostBoss = DCZ1
+BonusType = Boss
+StartRings = 10
+ForceResetMusic = On
+WarningTitle = true
+
+Level 10
+Levelname = Tubular Tunnels
+SubTitle = 	[INSERT FUNNY JOKE HERE]
+Act = 1
+Keywords = TTZ1
+Music = TTZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 11
+SkyNum = 4
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 11
+Levelname = Tubular Tunnels
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 2
+Keywords = TTZ2
+Music = TTZ2
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 12
+SkyNum = 4
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 12
+Levelname = Tubular Tunnels
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 3
+Keywords = TTZ3
+Music = VSALT
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 13
+SkyNum = 4
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+MusicPostBoss = TTZ1
+BonusType = Boss
+StartRings = 10
+ForceResetMusic = On
+WarningTitle = true
+
+Level 13
+Levelname = Cloudy Cliff-Face
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 1
+Keywords = CCFZ1
+Music = CCFZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 14
+SkyNum = 6
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 14
+Levelname = Cloudy Cliff-Face
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 2
+Keywords = CCFZ2
+Music = CCFZ2
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 15
+SkyNum = 6
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 15
+Levelname = Cloudy Cliff-Face
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 3
+Keywords = CCFZ3
+Music = VSALT
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 16
+SkyNum = 6
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+MusicPostBoss = CCFZ1
+BonusType = Boss
+StartRings = 10
+ForceResetMusic = On
+WarningTitle = true
+
+Level 16
+Levelname = Blazing Vermilion
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 1
+Keywords = BVZ1
+Music = BVZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 17
+SkyNum = 1
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 17
+Levelname = Blazing Vermilion
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 2
+Keywords = BVZ2
+Music = BVZ2
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 18
+SkyNum = 1
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 18
+Levelname = Blazing Vermilion
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 3
+Keywords = BVZ3
+Music = VSALT
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 19
+SkyNum = 1
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+MusicPostBoss = BVZ1
+BonusType = Boss
+StartRings = 10
+ForceResetMusic = On
+WarningTitle = true
+
+Level 19
+Levelname = Forsaken Square
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 1
+Keywords = FSZ1 
+Music = FSZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 20
+SkyNum = 4
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 20
+Levelname = Forsaken Square
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 2
+Keywords = FSZ2
+Music = FSZ2
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 21
+SkyNum = 4
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 21
+Levelname = Forsaken Square
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 3
+Keywords = FSZ3
+Music = VSALT
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 22
+SkyNum = 4Z
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+MusicPostBoss = FSZ1
+BonusType = Boss
+StartRings = 10
+ForceResetMusic = On
+WarningTitle = true
+
+Level 22
+Levelname = 'Osphere Doomship
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 1
+Keywords = ODZ1
+Music = ODZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 23
+SkyNum = 6
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 23
+Levelname = 'Osphere Doomship
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 2
+Keywords = ODZ2
+Music = ODZ2
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 24
+SkyNum = 6
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 24
+Levelname = 'Osphere Doomship
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 3
+Keywords = ODZ3
+Music = VSALT
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 25
+SkyNum = 6
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+MusicPostBoss = ODZ1
+BonusType = Boss
+StartRings = 10
+ForceResetMusic = On
+WarningTitle = true
+
+Level 25
+Levelname = Frantic Geode
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 1
+Keywords = FGZ1
+Music = FGZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 26
+SkyNum = 22
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 26
+Levelname = Frantic Geode
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 2
+Keywords = FGZ2
+Music = FGZ2
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 27
+SkyNum = 22
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+
+Level 27
+Levelname = Frantic Geode
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 3
+Keywords = FGZ3
+Music = VSALT
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 28
+SkyNum = 22
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+MusicPostBoss = FGZ1
+BonusType = Boss
+StartRings = 10
+ForceResetMusic = On
+WarningTitle = true
+
+Level 28
+Levelname = Frantic Geode
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 4
+Keywords = FGZ4
+Music = VSBRAK
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 99
+SkyNum = 22
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+BonusType = Boss
+StartRings = 10
+ForceResetMusic = On
+WarningTitle = true
+WideIcon = true
+MusicInter = _SUPCL
+
+#--UNLOCKABLE STAGES--
+
+Level 29
+Levelname = Hidden Palace
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 0
+Keywords = HPZ1
+Music = HPZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = 15
+SkyNum = 1
+RecordAttack = true
+LevelSelect = 2
+SaveGame = true
+WideIcon = true
+
+Level 30
+Levelname = Ween-a-Trickery
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 0
+Keywords = WATZ1
+Music = WATZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = TITLE
+SkyNum = 1
+RecordAttack = true
+LevelSelect = 2
+SaveGame = true
+WideIcon = true
+
+Level 31
+Levelname = Last Hoilday
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 0
+Keywords = LHZ1
+Music = LHZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = TITLE
+SkyNum = 129
+RecordAttack = true
+LevelSelect = 2
+SaveGame = true
+WideIcon = true
+Weather = 2
+
+Level 32
+Levelname = Lovely Air
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 0
+Keywords = LAZ1
+Music = LAZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = TITLE
+SkyNum = 1
+RecordAttack = true
+LevelSelect = 2
+SaveGame = true
+WideIcon = true
+
+Level 33
+Levelname = Knothole Coast
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 0
+Keywords = KCZ1
+Music = KCZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = TITLE
+SkyNum = 1
+RecordAttack = true
+LevelSelect = 2
+SaveGame = true
+WideIcon = true
+
+Level 34
+Levelname = Shattered Nightmares
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 0
+Keywords = SNZ1
+Music = SNZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = TITLE
+SkyNum = 1024
+RecordAttack = true
+LevelSelect = 2
+SaveGame = true
+WideIcon = true
+Weather = 1
+
+Level 35
+Levelname = Fortress Yolk
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 0
+Keywords = ECAZ1
+Music = ECAZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = TITLE
+SkyNum = 1
+RecordAttack = true
+LevelSelect = 2
+SaveGame = true
+WideIcon = true
+
+Level 36
+Levelname = Deserted Valley
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 0
+Keywords = DVZ1
+Music = DVZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = TITLE
+SkyNum = 1
+RecordAttack = true
+LevelSelect = 2
+SaveGame = true
+WideIcon = true
+
+Level 37
+Levelname = Jungle Woods
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 0
+Keywords = JWZ1
+Music = JWZ1
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+NextLevel = TITLE
+SkyNum = 1
+RecordAttack = true
+LevelSelect = 2
+SaveGame = true
+WideIcon = true
+
+#--HANGOUT STAGES--
+
+Level 38
+Levelname = Sunset Flowers
+SubTitle = Hangout 1
+TypeOfLevel = Hangout
+Keywords = SFZH
+Music = SFZ1
+NextLevel = 38
+SkyNum = 4
+SelectHeading = Hangout Stages
+
+Level 39
+Levelname = Forgotten Hardware
+SubTitle = Hangout 2
+TypeOfLevel = Hangout
+Keywords = FHZH
+Music = FHZ1
+NextLevel = 39
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 40
+Levelname = Drenched Caverns
+SubTitle = Hangout 3
+TypeOfLevel = Hangout
+Keywords = DCZH
+Music = DCZ1
+NextLevel = 40
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 41
+Levelname = Tubular Tunnels
+SubTitle = Hangout 4
+TypeOfLevel = Hangout
+Keywords = TTZH
+Music = TTZ1
+NextLevel = 41
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 42
+Levelname = Cloudy Cliff-Face
+SubTitle = Hangout 5
+TypeOfLevel = Hangout
+Keywords = CCFZH
+Music = CCFZ1
+NextLevel = 42
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 43
+Levelname = Blazing Vermilion
+SubTitle = Hangout 6
+TypeOfLevel = Hangout
+Keywords = BVZH
+Music = BVZ1
+NextLevel = 43
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 44
+Levelname = Forsaken Square
+SubTitle = Hangout 7
+TypeOfLevel = Hangout
+Keywords = FSZH
+Music = FSZ1
+NextLevel = 44
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 45
+Levelname = 'Osphere Doomship
+SubTitle = Hangout 8
+TypeOfLevel = Hangout
+Keywords = ODZH
+Music = ODZ1
+NextLevel = 45
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 46
+Levelname = Frantic Geode
+SubTitle = Hangout 9
+TypeOfLevel = Hangout
+Keywords = FGZH
+Music = FGZ1
+NextLevel = 46
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 47
+Levelname = Hidden Palace
+SubTitle = Hangout 10
+TypeOfLevel = Hangout
+Keywords = HPZH
+Music = HPZ1
+NextLevel = 47
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 48
+Levelname = Ween-a-Trickery
+SubTitle = Hangout 11
+TypeOfLevel = Hangout
+Keywords = WATZH
+Music = WATZ1
+NextLevel = 48
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 49
+Levelname = Last Hoilday
+SubTitle = Hangout 12
+TypeOfLevel = Hangout
+Keywords = LHZH
+Music = LHZ1
+NextLevel = 49
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 50
+Levelname = Lovely Air
+SubTitle = Hangout 13
+TypeOfLevel = Hangout
+Keywords = LAZH
+Music = LAZ1
+NextLevel = 50
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 51
+Levelname = Knothole Coast
+SubTitle = Hangout 14
+TypeOfLevel = Hangout
+Keywords = KCZH
+Music = KCZ1
+NextLevel = 51
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 52
+Levelname = Shattered Nightmares
+SubTitle = Hangout 15
+TypeOfLevel = Hangout
+Keywords = SNZH
+Music = SNZ1
+NextLevel = 52
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 53
+Levelname = Fortress Yolk
+SubTitle = Hangout 16
+TypeOfLevel = Hangout
+Keywords = ECAZH
+Music = ECAZ1
+NextLevel = 53
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 54
+Levelname = Deserted Valley
+SubTitle = Hangout 17
+TypeOfLevel = Hangout
+Keywords = DVZH
+Music = DVZ1
+NextLevel = 54
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 55
+Levelname = Jungle Woods
+SubTitle = Hangout 18
+TypeOfLevel = Hangout
+Keywords = JWZH
+Music = JWZ1
+NextLevel = 55
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 56
+Levelname = Passing Calender
+SubTitle = Hangout 19
+TypeOfLevel = Hangout
+Keywords = RYZH
+Music = RYZ1
+NextLevel = 56
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+Level 57
+Levelname = Alien's Crib
+SubTitle = Hangout 20
+TypeOfLevel = Hangout
+Keywords = ACZH
+Music = ACZ1
+NextLevel = 37
+SkyNum = 6
+SelectHeading = Hangout Stages
+
+#--CTF STAGES--
+
+Level 58
+Levelname = Sunset Flowers
+SubTitle = CTF 1
+TypeOfLevel = CTF
+Keywords = SFZ1M
+Music = SFZ1
+NextLevel = 58
+SkyNum = 4
+SelectHeading = CTF Stages
+
+Level 59
+Levelname = Forgotten Hardware
+SubTitle = CTF 2
+TypeOfLevel = CTF
+Keywords = FHZM
+Music = FHZ1
+NextLevel = 59
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 60
+Levelname = Drenched Caverns
+SubTitle = CTF 3
+TypeOfLevel = CTF
+Keywords = DCZM
+Music = DCZ1
+NextLevel = 60
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 61
+Levelname = Tubular Tunnels
+SubTitle = CTF 4
+TypeOfLevel = CTF
+Keywords = TTZM
+Music = TTZ1
+NextLevel = 61
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 62
+Levelname = Cloudy Cliff-Face
+SubTitle = CTF 5
+TypeOfLevel = CTF
+Keywords = CCFZM
+Music = CCFZ1
+NextLevel = 62
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 63
+Levelname = Blazing Vermilion
+SubTitle = CTF 6
+TypeOfLevel = CTF
+Keywords = BVZM
+Music = BVZ1
+NextLevel = 43
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 64
+Levelname = Forsaken Square
+SubTitle = CTF 7
+TypeOfLevel = CTF
+Keywords = FSZM
+Music = FSZ1
+NextLevel = 64
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 65
+Levelname = 'Osphere Doomship
+SubTitle = CTF 8
+TypeOfLevel = CTF
+Keywords = ODZM
+Music = ODZ1
+NextLevel = 65
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 66
+Levelname = Frantic Geode
+SubTitle = CTF 9
+TypeOfLevel = CTF
+Keywords = FGZM
+Music = FGZ1
+NextLevel = 66
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 67
+Levelname = Hidden Palace
+SubTitle = CTF 10
+TypeOfLevel = CTF
+Keywords = HPZM
+Music = HPZ1
+NextLevel = 67
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 68
+Levelname = Ween-a-Trickery
+SubTitle = CTF 11
+TypeOfLevel = CTF
+Keywords = WATZM
+Music = WATZ1
+NextLevel = 68
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 69
+Levelname = Last Hoilday
+SubTitle = CTF 12
+TypeOfLevel = CTF
+Keywords = LHZM
+Music = LHZ1
+NextLevel = 69
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 70
+Levelname = Lovely Air
+SubTitle = CTF 13
+TypeOfLevel = CTF
+Keywords = LAZM
+Music = LAZ1
+NextLevel = 70
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 71
+Levelname = Knothole Coast
+SubTitle = CTF 14
+TypeOfLevel = CTF
+Keywords = KCZM
+Music = KCZ1
+NextLevel = 71
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 72
+Levelname = Shattered Nightmares
+SubTitle = CTF 15
+TypeOfLevel = CTF
+Keywords = SNZM
+Music = SNZ1
+NextLevel = 72
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 73
+Levelname = Fortress Yolk
+SubTitle = CTF 16
+TypeOfLevel = CTF
+Keywords = ECAZM
+Music = ECAZ1
+NextLevel = 73
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 74
+Levelname = Deserted Valley
+SubTitle = CTF 17
+TypeOfLevel = CTF
+Keywords = DVZM
+Music = DVZ1
+NextLevel = 74
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 75
+Levelname = Jungle Woods
+SubTitle = CTF 18
+TypeOfLevel = CTF
+Keywords = JWZM
+Music = JWZ1
+NextLevel = 75
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 76
+Levelname = Passing Calender
+SubTitle = CTF 19
+TypeOfLevel = CTF
+Keywords = RYZM
+Music = RYZ1
+NextLevel = 76
+SkyNum = 6
+SelectHeading = CTF Stages
+
+Level 77
+Levelname = EVIL Alien's Crib
+SubTitle = CTF 20
+TypeOfLevel = CTF
+Keywords = ACZM
+Music = ACZ1
+NextLevel = 57
+SkyNum = 6
+SelectHeading = CTF Stages
+
+#--MATCH & TAG STAGES--
+
+Level 78
+Levelname = Sunset Flowers
+SubTitle = Match & Tag 1
+TypeOfLevel = Match,Tag
+Keywords = SFZ1M
+Music = SFZ1
+NextLevel = 78
+SkyNum = 4
+SelectHeading = Match & Tag Stages
+
+Level 79
+Levelname = Forgotten Hardware
+SubTitle = Match & Tag 2
+TypeOfLevel = Match,Tag
+Keywords = FHZM
+Music = FHZ1
+NextLevel = 79
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 80
+Levelname = Drenched Caverns
+SubTitle = Match & Tag 3
+TypeOfLevel = Match,Tag
+Keywords = DCZM
+Music = DCZ1
+NextLevel = 80
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 81
+Levelname = Tubular Tunnels
+SubTitle = Match & Tag 4
+TypeOfLevel = Match,Tag
+Keywords = TTZM
+Music = TTZ1
+NextLevel = 81
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 82
+Levelname = Cloudy Cliff-Face
+SubTitle = Match & Tag 5
+TypeOfLevel = Match,Tag
+Keywords = CCFZM
+Music = CCFZ1
+NextLevel = 82
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 83
+Levelname = Blazing Vermilion
+SubTitle = Match & Tag 6
+TypeOfLevel = Match,Tag
+Keywords = BVZM
+Music = BVZ1
+NextLevel = 83
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 84
+Levelname = Forsaken Square
+SubTitle = Match & Tag 7
+TypeOfLevel = Match,Tag
+Keywords = FSZM
+Music = FSZ1
+NextLevel = 84
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 85
+Levelname = 'Osphere Doomship
+SubTitle = Match & Tag 8
+TypeOfLevel = Match,Tag
+Keywords = ODZM
+Music = ODZ1
+NextLevel = 85
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 86
+Levelname = Frantic Geode
+SubTitle = Match & Tag 9
+TypeOfLevel = Match,Tag
+Keywords = FGZM
+Music = FGZ1
+NextLevel = 86
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 87
+Levelname = Hidden Palace
+SubTitle = Match & Tag 10
+TypeOfLevel = Match,Tag
+Keywords = HPZM
+Music = HPZ1
+NextLevel = 87
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 88
+Levelname = Ween-a-Trickery
+SubTitle = Match & Tag 11
+TypeOfLevel = Match,Tag
+Keywords = WATZM
+Music = WATZ1
+NextLevel = 88
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 89
+Levelname = Last Hoilday
+SubTitle = Match & Tag 12
+TypeOfLevel = Match,Tag
+Keywords = LHZM
+Music = LHZ1
+NextLevel = 89
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 90
+Levelname = Lovely Air
+SubTitle = Match & Tag 13
+TypeOfLevel = Match,Tag
+Keywords = LAZM
+Music = LAZ1
+NextLevel = 90
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 91
+Levelname = Knothole Coast
+SubTitle = Match & Tag 14
+TypeOfLevel = Match,Tag
+Keywords = KCZM
+Music = KCZ1
+NextLevel = 91
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 92
+Levelname = Shattered Nightmares
+SubTitle = Match & Tag 15
+TypeOfLevel = Match,Tag
+Keywords = SNZM
+Music = SNZ1
+NextLevel = 92
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 93
+Levelname = Fortress Yolk
+SubTitle = Match & Tag 16
+TypeOfLevel = Match,Tag
+Keywords = ECAZM
+Music = ECAZ1
+NextLevel = 93
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 94
+Levelname = Deserted Valley
+SubTitle = Match & Tag 17
+TypeOfLevel = Match,Tag
+Keywords = DCZM
+Music = DCZ1
+NextLevel = 94
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 95
+Levelname = Jungle Woods
+SubTitle = Match & Tag 18
+TypeOfLevel = Match,Tag
+Keywords = JWZM
+Music = JWZ1
+NextLevel = 95
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 96
+Levelname = Passing Calender
+SubTitle = Match & Tag 19
+TypeOfLevel = Match,Tag
+Keywords = RYZM
+Music = RYZ1
+NextLevel = 96
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+Level 97
+Levelname = EVIL Alien's Crib
+SubTitle = Match & Tag 20
+TypeOfLevel = Match,Tag
+Keywords = ACZM
+Music = ACZ1
+NextLevel = 77
+SkyNum = 6
+SelectHeading = Match & Tag Stages
+
+#--SPECIAL STAGEES--
+Level B1
+Levelname = Special Stage
+Act = 1
+SkyNum = 50
+SpecialStageTime = 200
+SpecialStageSpheres = 200
+SelectHeading = Special Stages
+TypeOfLevel = Singleplayer,Co-op
+Music = SPECI
+
+Level B2
+Levelname = Special Stage
+Act = 2
+SkyNum = 52
+SpecialStageTime = 112
+SpecialStageSpheres = 136
+SelectHeading = Special Stages
+TypeOfLevel = Singleplayer,Co-op
+Music = SPECI
+
+Level B3
+Levelname = Special Stage
+Act = 3
+SkyNum = 53
+SpecialStageTime = 200
+SpecialStageSpheres = 200
+SelectHeading = Special Stages
+TypeOfLevel = Singleplayer,Co-op
+Music = SPECI
+
+Level B4
+Levelname = Special Stage
+Act = 4
+SkyNum = 55
+SpecialStageTime = 200
+SpecialStageSpheres = 200
+SelectHeading = Special Stages
+TypeOfLevel = Singleplayer,Co-op
+Music = SPECI
+
+Level B5
+Levelname = Special Stage
+Act = 5
+SkyNum = 51
+SpecialStageTime = 200
+SpecialStageSpheres = 200
+SelectHeading = Special Stages
+TypeOfLevel = Singleplayer,Co-op
+Music = SPECI
+
+Level B6
+Levelname = Special Stage
+Act = 6
+SkyNum = 54
+SpecialStageTime = 200
+SpecialStageSpheres = 200
+SelectHeading = Special Stages
+TypeOfLevel = Singleplayer,Co-op
+Music = SPECI
+
+Level B7
+Levelname = Special Stage
+Act = 7
+SkyNum = B6
+SpecialStageTime = 200
+SpecialStageSpheres = 200
+SelectHeading = Special Stages
+TypeOfLevel = Singleplayer,Co-op
+Music = SPECI
+
+#--THINGS I FORGOT XDDDDD--
+
+Level A1
+Levelname = Final Fright
+SubTitle = [INSERT FUNNY JOKE HERE]
+Act = 0
+NoZone = 1
+Keywords = FFZ1
+Music = NONE
+TypeOfLevel = Singleplayer,Co-op
+NextLevel = 99
+SkyNum = 22
+RecordAttack = true
+LevelSelect = 1
+SaveGame = true
+MusicInter = _SUPCL
+
+#--EMBLEMS & UNLOCKABLE STUFF--
+#--Sunset Flowers Zone Act 1--
+Emblem
+Hint = At the start, with some flowers.
+Type = Global
+Tag = 0
+MapNum = 1
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = Custodied by some crawlas.
+Type = Global
+Tag = 1
+MapNum = 1
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = Under the broken bridge.
+Type = Global
+Tag = 2
+MapNum = 1
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = Follow the water current.
+Type = Global
+Tag = 3
+MapNum = 1
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = Near the end, very hidden.
+Type = Global
+Tag = 4
+MapNum = 1
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 60*TICRATE
+MapNum = 1
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 280
+MapNum = 1
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Sunset Flowers Zone Act 2--
+Emblem
+Hint = At the start, near the springs.
+Type = Global
+Tag = 0
+MapNum = 2
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = Inside a house.
+Type = Global
+Tag = 1
+MapNum = 2
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 2
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 2
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 2
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 120*TICRATE
+MapNum = 2
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 2
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Sunset Flowers Zone Act 3--
+Emblem
+Type = Time
+Var = 35*TICRATE
+MapNum = 3
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Score
+Var = 10000
+MapNum = 3
+Sprite = S
+Color = SKINCOLOR_BROWN
+
+#--Forgotten Hardware Zone Act 2--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 5
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+#--Shattered Nightmares Zone--
+Emblem
+Hint = Darkness hides this one.
+Type = Global
+Tag = 0
+MapNum = 34
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+#--Unlockables & Conditions--
+Unlockable 1
+Name = Emblem Hints
+Objective = Find 1 emblem.
+Type = EmblemHints
+ConditionSet = 1
+
+Unlockable 2
+Name = Emblem Radar
+Objective = Find 30 emblems.
+Type = ItemFinder
+ConditionSet = 2
+
+Unlockable 3
+Name = Record Attack
+Objective = Beat SFZ3.
+Type = RecordAttack
+ConditionSet = 3
+
+Unlockable 4
+Name = Sound Test
+Objective = Beat DCZ3.
+Type = SoundTest
+Height = 10
+ConditionSet = 4
+Var = 2
+
+Unlockable 20
+Name = Level Select
+Objective = Find 1 emblem. (NOT THE ACTUAL UNLOCK WAY)
+Type = LevelSelect
+Height = 20
+ConditionSet = 1
+Var = 1
+
+Unlockable 21
+Name = Secret / Unlockable Levels
+Objective = Find 1 emblem. (NOT THE ACTUAL UNLOCK WAY)
+Type = LevelSelect
+Height = 30
+ConditionSet = 1
+Var = 2
+
+ConditionSet 1
+Condition1 = TotalEmblems 1
+
+ConditionSet 2
+Condition1 = TotalEmblems 30
+
+ConditionSet 3
+Condition1 = MapBeaten 03
+
+ConditionSet 4
+Condition1 = MapBeaten 09

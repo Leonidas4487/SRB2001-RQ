@@ -1,0 +1,122 @@
+freeslot
+MT_MORERINGS_BOX
+MT_MORERINGS_GOLDBOX
+MT_MORERINGS_ICON
+S_MORERINGS_BOX
+S_MORERINGS_GOLDBOX
+S_MORERINGS_ICON1
+S_MORERINGS_ICON2
+SPR_TVMR
+
+Object MT_MORERINGS_BOX
+#$Name 25 Rings Monitor
+#$Sprite TVMRA0
+#$Category Mod Stuff
+#$NotAngled
+MapThingNum = 3452
+SpawnHealth = 1
+SpawnState = S_MORERINGS_BOX
+SeeState = S_NULL
+SeeSound = sfx_none
+AttackSound = sfx_none
+MeleeState = S_NULL
+MissileState = S_NULL
+DeathState = S_BOX_POP1
+XDeathState = S_NULL
+DeathSound = sfx_pop
+ActiveSound = sfx_none
+ReactionTime = 50
+PainChance = 0
+Speed = 1
+Radius = 18*FRACUNIT
+Height = 40*FRACUNIT
+DispOffset = 0
+Mass = 100
+Damage = MT_MORERINGS_ICON
+Flags = MF_SOLID|MF_SHOOTABLE|MF_MONITOR
+
+State S_MORERINGS_BOX
+SpriteName = TVMR
+SpriteFrame = A
+Duration = 2
+Action = none
+Var1 = 0
+Var2 = 0
+Next = S_BOX_FLICKER
+
+Object MT_MORERINGS_ICON
+MapThingNum = -1
+SpawnHealth = 1
+SpawnState = S_MORERINGS_ICON1
+SeeState = S_NULL
+SeeSound = sfx_itemup
+AttackSound = sfx_none
+MeleeState = S_NULL
+MissileState = S_NULL
+DeathState = S_NULL
+XDeathState = S_NULL
+DeathSound = sfx_pop
+ActiveSound = sfx_none
+ReactionTime = 25
+PainChance = 0
+Speed = 2*FRACUNIT
+Radius = 8*FRACUNIT
+Height = 14*FRACUNIT
+DispOffset = 0
+Mass = 100
+Damage = 62*FRACUNIT
+Flags = MF_NOBLOCKMAP|MF_NOCLIP|MF_SCENERY|MF_NOGRAVITY|MF_BOXICON
+
+State S_MORERINGS_ICON1
+SpriteName = TVMR
+SpriteFrame = FF_ANIMATE|C
+Duration = 18
+Action = none
+Var1 = 3
+Var2 = 4
+Next = S_MORERINGS_ICON2
+
+State S_MORERINGS_ICON2
+SpriteName = TVMR
+SpriteFrame = C
+Duration = 18
+Action = A_RingBox
+Var1 = 0
+Var2 = 0
+Next = S_NULL
+
+Object MT_MORERINGS_GOLDBOX
+#$Name 25 Rings Monitor (Respawn)
+#$Sprite TVMRB0
+#$Category Mod Stuff
+#$NotAngled
+MapThingNum = 3453
+SpawnHealth = 1
+SpawnState = S_MORERINGS_GOLDBOX
+SeeState = S_NULL
+SeeSound = sfx_none
+AttackSound = sfx_none
+MeleeState = S_NULL
+MissileState = S_NULL
+DeathState = S_GOLDBOX_OFF1
+XDeathState = S_NULL
+DeathSound = sfx_pop
+ActiveSound = sfx_none
+ReactionTime = 50
+PainChance = 0
+Speed = 1
+Radius = 20*FRACUNIT
+Height = 44*FRACUNIT
+DispOffset = 0
+Mass = 100
+Damage = MT_MORERINGS_ICON
+Flags = MF_SOLID|MF_SHOOTABLE|MF_MONITOR|MF_GRENADEBOUNCE
+
+State S_MORERINGS_GOLDBOX
+SpriteName = TVMR
+SpriteFrame = B
+Duration = 2
+Action = A_GoldMonitorSparkle
+Var1 = 0
+Var2 = 0
+Next = S_GOLDBOX_FLICKER

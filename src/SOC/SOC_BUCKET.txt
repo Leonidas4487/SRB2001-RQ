@@ -1,0 +1,50 @@
+FREESLOT
+MT_BUCKET
+S_BUCKET1
+S_BUCKET2
+S_BUCKET3
+SPR_BUCK
+
+#Bucket
+Object MT_BUCKET
+#$Name "Bucket of Paint"
+#$Sprite BUCKA0
+#$Category Mod Stuff
+#$NotAngled
+MapThingNum = 3559
+SpawnState = S_BUCKET1
+SpawnHealth = 1000
+DeathState = S_NULL
+XDeathState = S_NULL
+ReactionTime = 0
+PainChance = 0
+Speed = 0
+Height = 50*FRACUNIT
+Radius = 25*FRACUNIT
+Mass = 100
+Flags = MF_SOLID|MF_SCENERY|MF_NOGRAVITY
+
+#--Bucket of Paint---
+State S_BUCKET1
+SpriteName = SPR_BUCK
+SpriteFrame = A
+Duration = 4
+Next = S_BUCKET2
+Var1 = 0
+Var2 = 0
+
+State S_BUCKET2
+SpriteName = SPR_BUCK
+SpriteFrame = B
+Duration = 4
+Next = S_BUCKET3
+Var1 = 0
+Var2 = 0
+
+State S_BUCKET3
+SpriteName = SPR_BUCK
+SpriteFrame = C
+Duration = 4
+Next = S_BUCKET1
+Var1 = 0
+Var2 = 0

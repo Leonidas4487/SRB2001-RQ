@@ -1,0 +1,16 @@
+#--Level Picture Setup--
+Normal 160x - 100y | Filename:MAPXXP (XX = Map number, P = Picture)
+Wide 564x - 100y | Filename:MAPXXW (XX = Map number, W = Wide)
+
+Springs normal & wall
+Green:
+Normal: 59, S: 15
+Wall: 59, S: 23
+
+Orange:
+Normal: CI: 46, S: 26
+Wall: 46, S: 50
+
+Purple:
+Normal: 96, S: 40
+Wall: 96, S: 94

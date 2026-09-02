@@ -1,0 +1,257 @@
+freeslot
+MT_RING_GOLDBOX
+S_RING_GOLDBOX
+MT_1UP_GOLDBOX
+S_1UP_GOLDBOX
+S_1UP_GOLD1
+S_1UP_GOLD2
+MT_SCORE1K_GOLDBOX
+S_SCORE1K_GOLDBOX
+MT_SCORE10K_GOLDBOX
+S_SCORE10K_GOLDBOX
+MT_99SCORE_BOX
+MT_99SCORE_GOLDBOX
+MT_99SCORE_ICON
+S_99SCORE_BOX
+S_99SCORE_GOLDBOX
+S_99SCORE_ICON1
+S_99SCORE_ICON2
+
+Object MT_RING_GOLDBOX
+#$Name Super Ring (Respawn)
+#$Sprite TVRIB0
+#$Category Mod Stuff
+#$NotAngled
+MapThingNum = 3456
+SpawnHealth = 1
+SpawnState = S_RING_GOLDBOX
+SeeState = S_NULL
+SeeSound = sfx_none
+AttackSound = sfx_none
+MeleeState = S_NULL
+MissileState = S_NULL
+DeathState = S_GOLDBOX_OFF1
+XDeathState = S_NULL
+DeathSound = sfx_pop
+ActiveSound = sfx_none
+ReactionTime = 50
+PainChance = 0
+Speed = 1
+Radius = 20*FRACUNIT
+Height = 44*FRACUNIT
+DispOffset = 0
+Mass = 100
+Damage = MT_RING_ICON
+Flags = MF_SOLID|MF_SHOOTABLE|MF_MONITOR|MF_GRENADEBOUNCE
+
+State S_RING_GOLDBOX
+SpriteName = TVRI
+SpriteFrame = B
+Duration = 2
+Action = A_GoldMonitorSparkle
+Var1 = 0
+Var2 = 0
+Next = S_GOLDBOX_FLICKER
+
+Object MT_1UP_GOLDBOX
+#$Name 1-Up Monitor (Respawn)
+#$Sprite TV1UB0
+#$Category Mod Stuff
+#$NotAngled
+MapThingNum = 3457
+SpawnHealth = 1
+SpawnState = S_1UP_GOLDBOX
+SeeState = S_NULL
+SeeSound = sfx_none
+AttackSound = sfx_none
+MeleeState = S_NULL
+MissileState = S_NULL
+DeathState = S_GOLDBOX_OFF1
+XDeathState = S_NULL
+DeathSound = sfx_pop
+ActiveSound = sfx_none
+ReactionTime = 50
+PainChance = 0
+Speed = 1
+Radius = 20*FRACUNIT
+Height = 44*FRACUNIT
+DispOffset = 0
+Mass = 100
+Damage = MT_1UP_ICON
+Flags = MF_SOLID|MF_SHOOTABLE|MF_MONITOR|MF_GRENADEBOUNCE
+
+State S_1UP_GOLDBOX --Sorry :( this is the best I can do for now...
+SpriteName = TV1U
+SpriteFrame = B
+Duration = 0
+Action = A_GoldMonitorSparkle
+Var1 = 0
+Var2 = 0
+Next = S_GOLDBOX_FLICKER
+
+State S_1UP_GOLD1 --Not used
+SpriteName = TV1U
+SpriteFrame = B
+Duration = 2
+Action = A_GoldMonitorSparkle
+Var1 = 0
+Var2 = 0
+Next = S_NULL
+
+State S_1UP_GOLD2 --Not used
+SpriteName = TV1U
+SpriteFrame = B
+Duration = 2
+Action = A_1upThinker
+Var1 = 0
+Var2 = 0
+Next = S_NULL
+
+Object MT_SCORE1K_GOLDBOX
+#$Name Score 1,000 (Respawn)
+#$Sprite TV1KB0
+#$Category Mod Stuff
+#$NotAngled
+MapThingNum = 3458
+SpawnHealth = 1
+SpawnState = S_SCORE1K_GOLDBOX
+SeeState = S_NULL
+SeeSound = sfx_none
+AttackSound = sfx_none
+MeleeState = S_NULL
+MissileState = S_NULL
+DeathState = S_GOLDBOX_OFF1
+XDeathState = S_NULL
+DeathSound = sfx_pop
+ActiveSound = sfx_none
+ReactionTime = 50
+PainChance = 0
+Speed = 1
+Radius = 20*FRACUNIT
+Height = 44*FRACUNIT
+DispOffset = 0
+Mass = 100
+Damage = MT_SCORE1K_ICON
+Flags = MF_SOLID|MF_SHOOTABLE|MF_MONITOR|MF_GRENADEBOUNCE
+
+State S_SCORE1K_GOLDBOX
+SpriteName = TV1K
+SpriteFrame = B
+Duration = 2
+Action = A_GoldMonitorSparkle
+Var1 = 0
+Var2 = 0
+Next = S_GOLDBOX_FLICKER
+
+Object MT_SCORE10K_GOLDBOX
+#$Name Score 10,000 (Respawn)
+#$Sprite TVTKB0
+#$Category Mod Stuff
+#$NotAngled
+MapThingNum = 3459
+SpawnHealth = 1
+SpawnState = S_SCORE10K_GOLDBOX
+SeeState = S_NULL
+SeeSound = sfx_none
+AttackSound = sfx_none
+MeleeState = S_NULL
+MissileState = S_NULL
+DeathState = S_GOLDBOX_OFF1
+XDeathState = S_NULL
+DeathSound = sfx_pop
+ActiveSound = sfx_none
+ReactionTime = 50
+PainChance = 0
+Speed = 1
+Radius = 20*FRACUNIT
+Height = 44*FRACUNIT
+DispOffset = 0
+Mass = 100
+Damage = MT_SCORE10K_ICON
+Flags = MF_SOLID|MF_SHOOTABLE|MF_MONITOR|MF_GRENADEBOUNCE
+
+State S_SCORE10K_GOLDBOX
+SpriteName = TVTK
+SpriteFrame = B
+Duration = 2
+Action = A_GoldMonitorSparkle
+Var1 = 0
+Var2 = 0
+Next = S_GOLDBOX_FLICKER
+
+Object MT_99SCORE_GOLDBOX
+#$Name 99,999,999 Score Monitor (Respawn)
+#$Sprite TV1KB0
+#$Category Mod Stuff
+#$NotAngled
+MapThingNum = 3460
+SpawnHealth = 1
+SpawnState = S_99SCORE_GOLDBOX
+SeeState = S_NULL
+SeeSound = sfx_none
+AttackSound = sfx_none
+MeleeState = S_NULL
+MissileState = S_NULL
+DeathState = S_GOLDBOX_OFF1
+XDeathState = S_NULL
+DeathSound = sfx_pop
+ActiveSound = sfx_none
+ReactionTime = 50
+PainChance = 0
+Speed = 1
+Radius = 20*FRACUNIT
+Height = 44*FRACUNIT
+DispOffset = 0
+Mass = 100
+Damage = MT_99SCORE_ICON
+Flags = MF_SOLID|MF_SHOOTABLE|MF_MONITOR|MF_GRENADEBOUNCE
+
+State S_99SCORE_GOLDBOX
+SpriteName = TV1K
+SpriteFrame = B
+Duration = 2
+Action = A_GoldMonitorSparkle
+Var1 = 0
+Var2 = 0
+Next = S_GOLDBOX_FLICKER
+
+Object MT_99SCORE_ICON
+MapThingNum = -1
+SpawnHealth = 1
+SpawnState = S_99SCORE_ICON1
+SeeState = S_NULL
+SeeSound = sfx_itemup
+AttackSound = sfx_none
+MeleeState = S_NULL
+MissileState = S_NULL
+DeathState = S_NULL
+XDeathState = S_NULL
+DeathSound = sfx_pop
+ActiveSound = sfx_none
+ReactionTime = 99999998
+PainChance = 0
+Speed = 2*FRACUNIT
+Radius = 8*FRACUNIT
+Height = 14*FRACUNIT
+DispOffset = 0
+Mass = 100
+Damage = 62*FRACUNIT
+Flags = MF_NOBLOCKMAP|MF_NOCLIP|MF_SCENERY|MF_NOGRAVITY|MF_BOXICON
+
+State S_99SCORE_ICON1
+SpriteName = TV1K
+SpriteFrame = FF_ANIMATE|C
+Duration = 18
+Action = none
+Var1 = 3
+Var2 = 4
+Next = S_99SCORE_ICON2
+
+State S_99SCORE_ICON2
+SpriteName = TV1K
+SpriteFrame = C
+Duration = 18
+Action = A_AwardScore
+Var1 = 0
+Var2 = 0
+Next = S_NULL

@@ -1,0 +1,79 @@
+Object MT_YELLOWSPRING
+SpawnState = S_VSPRING0
+SeeState = S_VSPRING1
+RaiseState = S_VSPRING1
+
+Object MT_REDSPRING
+SpawnState = S_VSPRING0
+SeeState = S_VSPRING1
+RaiseState = S_VSPRING1
+
+Object MT_BLUESPRING
+SpawnState = S_VSPRING0
+SeeState = S_VSPRING1
+RaiseState = S_VSPRING1
+
+Object MT_YELLOWHORIZ
+SpawnState = S_HSPRING0
+SeeState = S_HSPRING1
+RaiseState = S_HSPRING1
+
+Object MT_REDHORIZ
+SpawnState = S_HSPRING0
+SeeState = S_HSPRING1
+RaiseState = S_HSPRING1
+
+Object MT_BLUEHORIZ
+SpawnState = S_HSPRING0
+SeeState = S_HSPRING1
+RaiseState = S_HSPRING1
+
+Object MT_YELLOWDIAG
+SpawnState = S_DSPRING0
+SeeState = S_DSPRING1
+RaiseState = S_DSPRING1
+
+Object MT_REDDIAG
+SpawnState = S_DSPRING0
+SeeState = S_DSPRING1
+RaiseState = S_DSPRING1
+
+Object MT_BLUEDIAG
+SpawnState = S_DSPRING0
+SeeState = S_DSPRING1
+RaiseState = S_DSPRING1
+
+Object MT_YELLOWSPRINGBALL
+SpawnState = S_BSPRING0
+SeeState = S_BSPRING1
+RaiseState = S_BSPRING1
+
+Object MT_REDSPRINGBALL
+SpawnState = S_BSPRING0
+SeeState = S_BSPRING1
+RaiseState = S_BSPRING1
+
+Object MT_BLUESPRINGBALL
+SpawnState = S_BSPRING0
+SeeState = S_BSPRING1
+RaiseState = S_BSPRING1
+
+Object MT_SPRINGSHELL
+SpawnState = S_SPRINGSHELLC_STND
+SeeState = S_SPRINGSHELLC0
+RaiseState = S_SPRINGSHELLC_S0
+Height = 42*FRACUNIT
+
+Object MT_YELLOWSHELL
+SpawnState = S_SPRINGSHELLC_STND
+SeeState = S_SPRINGSHELLC0
+RaiseState = S_SPRINGSHELLC_S0
+Height = 42*FRACUNIT
+
+Object MT_BANPYURA
+SpawnState = S_SPRCRAB_0
+
+Object MT_BANPSPRING
+SpawnState = S_SBRING0
+SeeState = S_SBRING1
+RaiseState = S_SBRING1

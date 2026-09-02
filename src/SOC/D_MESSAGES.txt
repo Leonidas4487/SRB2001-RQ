@@ -1,0 +1,157 @@
+PROMPT 1
+NumPages 8
+PAGE 1
+Tag = SFZ1001
+Name = ???
+TimeToNext = 0
+Icon = SNKN01
+IconAlign = Left
+Lines = 4
+PageText = Hi! :D
+#
+PAGE 2
+MetaPage = 1
+Icon = SNKN02
+Name = Sonikino
+TimeToNext = 0
+PageText = I'm Sonikino!
+#
+PAGE 3
+MetaPage = 1
+Name = Sonikino
+Icon = SNKN03
+TimeToNext = 0
+PageText = You... seem confused...
+#
+PAGE 4
+MetaPage = 1
+Name = Sonikino
+Icon = SNKN04
+TimeToNext = 0
+PageText = Oh, no. Just because I look like Sonic doesn't mean I AM Sonic, ok?
+#
+PAGE 5
+MetaPage = 1
+Name = Sonikino
+Icon = SNKN05
+TimeToNext = 0
+PageText = I'm a separate entity from him, you can clearly see the differences.
+#
+PAGE 6
+MetaPage = 1
+Name = Sonikino
+Icon = SNKN01
+TimeToNext = 0
+PageText = Anyways, glad to see someone else that can talk over here!
+#
+PAGE 7
+MetaPage = 1
+Name = Sonikino
+Icon = SNKN04
+TimeToNext = 0
+PageText = Most things around here are just robots, so most of the time I simply admire this place...
+#
+PAGE 8
+MetaPage = 1
+Name = Sonikino
+Icon = SNKN03
+TimeToNext = 0
+PageText = I mean, it looks good, but it gets boring over time.
+#
+
+PROMPT 2
+NumPages 3
+PAGE 1
+Tag = SFZ1002
+Name = Sonikino
+Icon = SNKN05
+IconAlign = Left
+Lines = 4
+TimeToNext = 0
+PageText = By the way, before you go: I'll give you these very special emblems if you find me!
+#
+PAGE 2
+MetaPage = 1
+Name = Sonikino
+Icon = SNKN01
+TimeToNext = 0
+PageText = Think of it as a game of hide & seek with a reward at the end!
+#
+PAGE 3
+MetaPage = 1
+Name = Sonikino
+Icon = SNKN05
+TimeToNext = 0
+PageText = Well, that's all I have to say. Go save the world or, I don't know, eat French toast.
+#
+
+PROMPT 3
+NumPages 3
+PAGE 1
+Tag = SFZ2001
+Name = Sonikino
+TimeToNext = 0
+Icon = SNKN01
+IconAlign = Left
+Lines = 4
+PageText = "place text here"
+#
+PAGE 2
+MetaPage = 1
+Icon = SNKN01
+Name = Sonikino
+TimeToNext = 0
+PageText = "place text here"
+#
+PAGE 3
+MetaPage = 1
+Icon = SNKN01
+Name = Sonikino
+TimeToNext = 0
+PageText = "place text here"
+#
+
+PROMPT 4
+NumPages 4
+PAGE 1
+Tag = BABA04
+Name = Sonikino
+TimeToNext = 0
+Icon = SNKN01
+IconAlign = Left
+Lines = 4
+PageText = "place text here"
+#
+PAGE 2
+MetaPage = 1
+Icon = SNKN01
+Name = Sonikino
+TimeToNext = 0
+PageText = "place text here"
+#
+PAGE 3
+MetaPage = 1
+Icon = SNKN01
+Name = Sonikino
+TimeToNext = 0
+PageText = "place text here"
+#
+PAGE 4
+MetaPage = 1
+Icon = SNKN01
+Name = Sonikino
+TimeToNext = 0
+PageText = "place text here"
+#
+
+PROMPT 99
+NumPages 1
+PAGE 1
+Tag = CREDIS
+Name = Sonikino
+TimeToNext = 175
+Icon = SNKN01
+IconAlign = Left
+Lines = 4
+PageText = I guess this really was a robo-blast TWO!!!!!!!!!!!!!!
+#

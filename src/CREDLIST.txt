@@ -1,0 +1,24 @@
+CREDITS LIST (Mainly Lua's)
+1. NeonSRB2 for "More and Better Super Forms" 
+(https://mb.srb2.org/addons/more-and-better-super-forms.1330/)
+2. TheLastKitchenGun for "Super Sparkles" 
+(https://mb.srb2.org/addons/super-sparkles.4111/)
+3. ClovesCloestarSRB2 for "New Springs!" (used for different powers of springs)
+(https://mb.srb2.org/addons/new-springs.8942/)
+4. TehRealSalt for "Jump Leniency" 
+(https://mb.srb2.org/addons/jump-leniency.2821/)
+5. Sir Thoksalot for "Hyper Sonic" (modified a little bit)
+(https://mb.srb2.org/addons/hyper-sonics-directional-dash.2774/)
+6. Team Prismatic For "Mystic Realm: Community Edition" (used for hyper sonic 
+flashing skincolor and music change code)
+(https://mb.srb2.org/addons/the-mystic-realm-community-edition-mrce.8345/)
+
+The rest of the lua is created by me (hangout stuff, not drowning if super / hyper, 
+the new palletes and part of the hyper sonic stuff like the dark emerald, 
+custom emblems and the super fight stuff)
+
+
+Playtesters & Helpers:
+1. NeoZiggy421 (thanks for the level name ideas :D )
+
+Everyone who commented and saw the proyect grow on the SRB2 Discord Server!

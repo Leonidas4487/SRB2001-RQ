@@ -1,0 +1,21 @@
+#Sonikino
+Object MT_SONIKINO
+#$Name "Sonikino"
+#$Sprite SONKA0
+#$Category Mod Stuff
+#$NotAngled
+#$Arg0 Cosmetic(s)
+#$Arg0Type 11
+#$Arg0Enum { 0 = "Default"; 1 = "Sunset Flowers 2"; 2 = "Forgotten Hardware 1"; 3 = "Forgotten Hardware 2"; 4 = "Drenched Caverns 1"; 5 = "Drenched Caverns 2"; 6 = "Tubular Tunnels 1"; 7 = "Tubular Tunnels 2"; 8 = "Cloudy Cliff-Face 1"; 9 = "Cloudy Cliff-Face 2"; 10 = "Blazing Vermilion 1"; 11 = "Blazing Vermilion 2"; 12 = "Forsaken Square 1"; 13 = "Forsaken Square 2"; 14 = "'Osphere Doomship 1"; 15 = "'Osphere Doomship 2"; 16 = "Frantic Geode 1"; 17 = "Frantic Geode 2"; 18 = "Frantic Geode 4"; }
+MapThingNum = 3558
+SpawnState = S_SONKIDLE1
+SpawnHealth = 1000
+DeathState = S_NULL
+XDeathState = S_NULL
+ReactionTime = 0
+PainChance = 0
+Speed = 0
+Height = 210*FRACUNIT
+Radius = 100*FRACUNIT
+Mass = 100
+Flags = MF_SOLID
