@@ -1,0 +1,12 @@
+--mrce.CharacterPhysics(string skinname, boolean momentum, boolean stats, int customspindash)
+--Support your custom character with this easy function.
+--By defining your skin to our support table you can finetune your character's interactions with mrce's physics
+--By default, all options are enabled
+--Note, custom spindash is active when set to 0, set to 1 for vanilla functionality. Doing so will also restore vanilla spin air control and water skipping
+--You cannot modify a character that is already part of the table
+--Note that nothing will happen if you run the function for a character that's already in the table
+--But you should still try to not run the function when unnecessary anyway
+--server hosts shouldn't need to apply this in any hook if the support script is loaded after mrce
+--in such a case no container is necessary and the function can be run on its own
+--an example usage of the function may look like so:
+--      mrce.CharacterPhysics("toad", true, false, 1)
