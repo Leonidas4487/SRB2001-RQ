@@ -1,0 +1,198 @@
+Lump _TITLE
+Title = Title_Screen
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 0
+Stoppingtime = 25.500
+BPM = 125
+
+Lump _CHSEL
+Title = Buddy_Selection!
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 0
+BPM = 150
+
+Lump SFZ1
+Title = Sunset_Flowers_1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 1
+BPM = 57
+
+Lump SFZ2
+Title = Sunset_Flowers_2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 2
+BPM = 72
+
+Lump _CLEAR
+Title = Act_Cleared!
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 1
+Stoppingtime = 17.910
+BPM = 150
+
+Lump _SUPCL
+Title = Act_Super_Cleared!
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 28
+Stoppingtime = 10
+BPM = 141
+
+Lump VSALT
+Title = VS_Dr._Eggman
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 3
+BPM = 140
+
+Lump FHZ1
+Title = Forgotten_Hardware_1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 4
+BPM = 105
+
+Lump FHZ2
+Title = Forgotten_Hardware_2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 5
+BPM = 115
+
+Lump DCZ1
+Title = Drenched_Caverns_1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 7
+BPM = 150
+
+Lump DCZ2
+Title = Drenched_Caverns_2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 8
+BPM = 225
+
+Lump TTZ1
+Title = Tubular_Tunnels_1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 10
+BPM = 140
+
+Lump TTZ2
+Title = Tubular_Tunnels_2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 11
+BPM = 150
+
+Lump CCFZ1
+Title = Cloudy_Cliff-Face_1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 13
+BPM = 190
+
+Lump CCFZ2
+Title = Cloudy_Cliff-Face_2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 14
+BPM = 190
+
+Lump BVZ1
+Title = Blazing_Vermilion_1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 16
+BPM = 180
+
+Lump BVZ2
+Title = Blazing_Vermilion_2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 17
+BPM = 180
+
+Lump FSZ1
+Title = Forsaken_Square_1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 19
+BPM = 120
+
+Lump FSZ2
+Title = Forsaken_Square_2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 20
+BPM = 120
+
+Lump ODZ1
+Title = 'Osphere_Doomship_1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 22
+BPM = 120
+
+Lump ODZ2
+Title = 'Osphere_Doomship_2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 23
+BPM = 120
+
+Lump FGZ1
+Title = Frantic_Geode_1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 25
+BPM = 127
+
+Lump FGZ2
+Title = Frantic_Geode_2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 26
+BPM = 130
+
+Lump VSBRAK
+Title = VS_Brak_Eggman
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 28
+BPM = 140
+
+Lump FINALB
+Title = Final Fright
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = A1
+BPM = 145
+
+Lump CREDIS
+Title = Credits
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 28
+BPM = 100
+
+Lump _SUPER
+Title = Super_Styles!
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 0
+BPM = 150
+
+Lump _HYPER
+Title = Hyper_Styles!
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 0
+BPM = 150
