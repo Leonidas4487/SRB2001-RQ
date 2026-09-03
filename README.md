@@ -56,3 +56,16 @@ There's also other things I added but I can't tell them here because They're TOP
 If you readed this to the end, thank you for reading and please, if you find some error or maybe you have a suggestion, leave it here so I can see it!
 
 Thanks for everything!
+
+## Getting the map pack itself!
+To get the latest version of this map pack, you have 3 options
+
+### Option A
+Download the Source and execute the "build_RQ.bat" file inside it, this will build you a .pk3 file with the map pack itself! Btw, this is a modified version of the ["build_MRCE.bat"](https://gitlab.com/team-prismatic/mystic-realm-ce/-/blob/next/build_MRCE.bat?ref_type=heads) from the [MRCE GitLab](https://gitlab.com/team-prismatic/mystic-realm-ce/), so credits to them!
+
+### Option B
+You can also download the Source and (inside the src folder) zip up the all the files into a .zip and renaming the file to .pk3!
+
+### Option C
+Wait for a build in the "Releases" section and downloading it!
+Right now the build in the "Releases" section is the same as the source but in the future this may not be the same because the "releases" are only going to happen when I add various small and big changes/additions to the map pack.
