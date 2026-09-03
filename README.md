@@ -21,7 +21,9 @@ First of all, since this is a map pack, I'll list all main campaign zones below:
 I don't really have any screenshots of the maps since it's still a very W.I.P map pack so expect some in the future.
 
 <div align="center">
-  <img src="wawa"/>
+  <img src="promo/promo1.png"/>
+  <img src="promo/promo2.png"/>
+  <img src="promo/promo3.png"/>
 </div>
 <br/>
 
