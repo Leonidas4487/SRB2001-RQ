@@ -67,5 +67,5 @@ Download the Source and execute the "build_RQ.bat" file inside it, this will bui
 You can also download the Source and (inside the src folder) zip up the all the files into a .zip and renaming the file to .pk3!
 
 ### Option C
-Wait for a build in the "Releases" section and downloading it!
-Right now the build in the "Releases" section is the same as the source but in the future this may not be the same because the "releases" are only going to happen when I add various small and big changes/additions to the map pack.
+Wait for a build in the ["Releases"](https://github.com/Leonidas4487/SRB2001-RQ/releases) section and downloading it!
+Right now the build in the ["Releases"](https://github.com/Leonidas4487/SRB2001-RQ/releases) section is the same as the source but in the future this may not be the same because the "releases" are only going to happen when I add various small and big changes/additions to the map pack.
