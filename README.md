@@ -1,10 +1,11 @@
 # Sonic Robo Blast 2001: Re-Quested
-Sonic Robo Blast 2001: Re-Quested (or SRB2001-RQ for short) is a big map pack based on old material of srb2 history (such as "Beta Quest") and dev levels that never made the final cut.
+Sonic Robo Blast 2001: Re-Quested (or SRB2001-RQ for short) is a big **WIP** map pack for [SRB2](srb2.org) based on old material from it's history (such as "Beta Quest"), dev levels that never made the final cut and things we have seen from the future of it while also taking  those ideas and mixing them into new levels for you to enjoy!
 
 This may seem like something already made (which is kinda true) but this has something different, something, unique...
+(*cough* *cough* time zones *cough* *cough*)
 
 ## Story
-There's no lore or story at the time i'm writing this but there WILL be some of it.
+There's no established lore or story at the time i'm writing this but there **WILL** be in the future.
 
 ## Content
 First of all, since this is a map pack, I'll list all main campaign zones below:
