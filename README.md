@@ -53,8 +53,6 @@ And that's mainly the reason I'm doing this whole map pack in the 1st place, to 
 
 There's also other things I added but I can't tell them here because They're TOP SECRET and are very funny surprises to find!
 
-If you readed this to the end, thank you for reading and please, if you find some error or maybe you have a suggestion, leave it here so I can see it!
-
 ## Getting the map pack itself!
 To get the latest version of this map pack, you have 3 options
 
@@ -67,6 +65,9 @@ You can also download the Source and (inside the src folder) zip up the all the 
 ### Option C
 Wait for a build in the "[Releases](https://github.com/Leonidas4487/SRB2001-RQ/releases)" section and downloading it!
 Right now the build in the "[Releases](https://github.com/Leonidas4487/SRB2001-RQ/releases)" section is the same as the source but in the future this may not be the same because the "releases" are only going to happen when I add various small and big changes/additions to the map pack.
+
+Btw if you find some error or maybe you have a suggestion, leave it here so I can see it!
+
 
 If you readed this to the end, thanks for watching this page! 💙
 
