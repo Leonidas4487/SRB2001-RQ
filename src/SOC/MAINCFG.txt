@@ -1295,6 +1295,18 @@ LevelSelect = 1
 SaveGame = true
 MusicInter = _SUPCL
 
+Level AA
+Levelname = Central Warp Point
+SubTitle = My take on a SRB2:TP Hub!
+Act = 0
+Keywords = HUB01
+Music = SFZ1
+TypeOfLevel = Co-op
+NextLevel = AA
+SkyNum = 100
+LevelSelect = 1
+SaveGame = true
+
 #--EMBLEMS & UNLOCKABLE STUFF--
 #--Sunset Flowers Zone Act 1--
 Emblem
