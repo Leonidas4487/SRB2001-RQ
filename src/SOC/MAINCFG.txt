@@ -1296,13 +1296,13 @@ SaveGame = true
 MusicInter = _SUPCL
 
 Level AA
-Levelname = Central Warp Point
-SubTitle = My take on a SRB2:TP Hub!
+Levelname = Central Warp-Point
+SubTitle = hub or smth idk
 Act = 0
 Keywords = HUB01
-Music = SFZ1
+Music = HUB01
 TypeOfLevel = Co-op
-NextLevel = AA
+NextLevel = 1
 SkyNum = 100
 LevelSelect = 1
 SaveGame = true
