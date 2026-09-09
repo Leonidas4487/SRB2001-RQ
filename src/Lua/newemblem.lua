@@ -174,17 +174,15 @@ addHook("TouchSpecial", function(cusemb, p)
     end
 end, MT_CUSEMB)
 
+//this is extracted from the sonikino handler.
 addHook("MapThingSpawn", function(mo, mt)
-    if not (mo and mo.valid) then
+    if not (mo and mo.valid and mt and mt.args) then
+//for safety reasons...
+        mo.state = S_SONKIDLE1
         return
     end
-
-//this is extracted from the sonikino handler (sonkhandler.lua) please check it.
-
-    local arg0 = "0"
-    if mt and mt.args then
-        arg0 = tostring(mt.args[0])
-    end
+//converts the first argument to text!
+    local arg0 = tostring(mt.args[0])
 
     if arg0 == "1" then
         mo.state = S_SOMBADV02
@@ -461,6 +459,42 @@ local function Display(v)
 		if sonk10 == 1 then
             local tonblem10 = v.getSpritePatch(SPR_SOTN, J)
             v.draw(110, -20, tonblem10)
+        end
+        if sonk11 == 1 then
+            local tonblem11 = v.getSpritePatch(SPR_SOTN, K)
+            v.draw(20, -10, tonblem11)
+        end
+        if sonk12 == 1 then
+            local tonblem12 = v.getSpritePatch(SPR_SOTN, L)
+            v.draw(30, -10, tonblem12)
+        end
+        if sonk13 == 1 then
+            local tonblem13 = v.getSpritePatch(SPR_SOTN, M)
+            v.draw(40, -10, tonblem13)
+        end
+        if sonk14 == 1 then
+            local tonblem14 = v.getSpritePatch(SPR_SOTN, N)
+            v.draw(50, -10, tonblem14)
+        end
+        if sonk15 == 1 then
+            local tonblem15 = v.getSpritePatch(SPR_SOTN, O)
+            v.draw(60, -10, tonblem15)
+        end
+        if sonk16 == 1 then
+            local tonblem16 = v.getSpritePatch(SPR_SOTN, P)
+            v.draw(70, -10, tonblem16)
+        end
+        if sonk17 == 1 then
+            local tonblem17 = v.getSpritePatch(SPR_SOTN, Q)
+            v.draw(80, -10, tonblem17)
+        end
+        if sonk18 == 1 then
+            local tonblem18 = v.getSpritePatch(SPR_SOTN, R)
+            v.draw(90, -10, tonblem18)
+        end
+        if sonk19 == 1 then
+            local tonblem19 = v.getSpritePatch(SPR_SOTN, S)
+            v.draw(100, -10, tonblem19)
         end
     end
 end
