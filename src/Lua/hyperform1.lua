@@ -157,7 +157,7 @@ addHook("MapThingSpawn", function(mo, mt)
 end, MT_DARKEMER)
 
 addHook("TouchSpecial", function(token, p)
-    if p.valid and p.player and p.health not p.bot then
+    if p.valid and p.player and p.health and not p.bot then
         if All7Emeralds(emeralds) then
         p.player.rings = $ + 50
         end
