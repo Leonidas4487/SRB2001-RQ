@@ -155,3 +155,8 @@ addHook("MapThingSpawn", function(mo, mt)
         mo.state = S_NULL
     end
 end, MT_DARKEMER)
+
+addHook("TouchSpecial", function(token, p)
+    if p.valid and p.player and p.health not p.bot then
+        p.player.rings = $ + 50
+end, MT_TOKEN)
