@@ -164,3 +164,9 @@ addHook("MapThingSpawn", function(mo, mt)
         mo.state = S_SONKIDLE1
     end
 end, MT_SONIKINO)
+
+addHook("MapThingSpawn", function(mo, mt)
+        if mo.state == S_SONKSFZ21 or mo.state == S_SONKFHZ11 or mo.state == S_SONKFHZ21 and not hasEmblem(1) then
+                mo.state == S_NULL
+    end
+end, MT_SONIKINO)
