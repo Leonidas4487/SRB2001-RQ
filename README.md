@@ -2,7 +2,7 @@
 Sonic Robo Blast 2001: Re-Quested (or SRB2001-RQ for short) is a (considerably) big WIP map-pack (in ideas, not the demo itself) i had in my mind a long time ago and it's based on old material from SRB2's history while adding my ideas and concepts to make it feel fresh! (i think)
 
 ## Story
-There's no established lore or story at the time i'm writing this but there **WILL** be a story in the future.
+There's no established lore or story at the time i'm writing this but there **WILL** be a story in the future. For now, you can have [this!](https://github.com/Leonidas4487/SRB2001-RQ/blob/main/promo/text1.md)
 
 ## Content
 This map pack has a very special """"""mechanic"""""" which is: time changes!
