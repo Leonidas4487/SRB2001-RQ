@@ -726,11 +726,22 @@ end, MT_SONIKINO)
 
 addHook("MapThingSpawn", function(mo, mt)
     if (mo.state == S_SONKSFZ21 or mo.state == S_SONKFHZ11 or mo.state == S_SONKFHZ21 or
-        mo.state == S_SONKDCZ11 or mo.state == S_SONKDCZ21 or mo.state == S_SONKTMZ11 or
-        mo.state == S_SONKTMZ21 or mo.state == S_SONKCCFZ11 or mo.state == S_SONKCCFZ21 or
+        mo.state == S_SONKDCZ11 or mo.state == S_SONKDCZ21 or mo.state == S_SONKTTZ11 or
+        mo.state == S_SONKTTZ21 or mo.state == S_SONKCCFZ11 or mo.state == S_SONKCCFZ21 or
         mo.state == S_SONKBVZ11 or mo.state == S_SONKBVZ21 or mo.state == S_SONKFSZ11 or
         mo.state == S_SONKFSZ21 or mo.state == S_SONKODZ11 or mo.state == S_SONKODZ21 or
-        mo.state == S_SONKFGZ11 or mo.state == S_SONKFGZ21 or mo.state == S_SONKFGZ41) and not hasEmblem(1) then
+        mo.state == S_SONKFGZ11 or mo.state == S_SONKFGZ21 or mo.state == S_SONKFGZ41) and not hasEmblem(1) or netgame then
         mo.state = S_NULL
     end
 end, MT_SONIKINO)
+
+addHook("MapLoad", function(mapnum)
+    -- Sunset Flowers 2
+    if mapheaderinfo[mapnum].lvlttl == "Sunset Flowers" and mapheaderinfo[mapnum].actnum == 2 or netgame then
+        for sector in sectors.iterate do
+            if sector.triggertag == 5 then
+                sector.triggertag = 0
+            end
+        end
+    end
+end)

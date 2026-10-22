@@ -14,7 +14,7 @@ addHook("ThinkFrame", do
 	end
 end)
 
-addHook("PlayerThink", function(player)
+addHook("PlayerThink", function(player, mo)
 		if player.mo.skin == "amy"
 		and player.mo.state == S_PLAY_MELEE_FINISH
 		and player.powers[pw_super]
@@ -33,7 +33,7 @@ addHook("PlayerThink", function(player)
 end)
 
 
-addHook("PlayerThink", function(player)
+addHook("PlayerThink", function(player, mo)
 	if player.mo.skin == "fang" and player.powers[pw_super]
 		if player.mo.state == S_PLAY_BOUNCE_LANDING
 			if player.bouncelatch == true
@@ -49,7 +49,7 @@ addHook("PlayerThink", function(player)
 	end
 end)
 
-addHook("PlayerThink", function(player)
+addHook("PlayerThink", function(player, mo)
 	if player.mo.skin == "metalsonic" and player.powers[pw_super]
 				if player.dashmode > 3*TICRATE and player.dashhelper == true
 					P_NukeEnemies(player.mo, player.mo, 800*FRACUNIT)

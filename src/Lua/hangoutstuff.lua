@@ -29,3 +29,118 @@ addHook("PlayerThink", function(player)
         end
     end
 end)
+
+rawset(_G, "act2", 0)
+
+addHook("MapLoad", function()
+    rawset(_G, "act2", 0)
+end)
+
+COM_AddCommand("dr_changetrack", function(player, arg)
+    if (gamestate == GS_LEVEL) then
+        if not netgame or (gametype == GT_COOP or gametype == GT_COMPETITION or gametype == GT_RACE) then
+            CONS_Printf(player, "\x82"+"ERROR:\x80 This command only works if you are on a netgame with a valid gametype. Invalid gametypes include: Co-op, Race and Competition.")
+            return
+        end
+    //Sunset Flowers Changes
+        if mapheaderinfo[gamemap].lvlttl == "Sunset Flowers" and act2 == 0 then
+            act2 = 1
+            S_ChangeMusic("sfz2", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 2 version!")
+        elseif mapheaderinfo[gamemap].lvlttl == "Sunset Flowers" and act2 == 1 then
+            act2 = 0
+            S_ChangeMusic("sfz1", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 1 version!")
+    //Forgotten Hardware Changes
+        elseif mapheaderinfo[gamemap].lvlttl == "Forgotten Hardware" and act2 == 0 then
+            act2 = 1
+            S_ChangeMusic("fhz2", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 2 version!")
+        elseif mapheaderinfo[gamemap].lvlttl == "Forgotten Hardware" and act2 == 1 then
+            act2 = 0
+            S_ChangeMusic("fhz1", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 1 version!")
+    //Drenched Caverns Changes
+        elseif mapheaderinfo[gamemap].lvlttl == "Drenched Caverns" and act2 == 0 then
+            act2 = 1
+            S_ChangeMusic("dcz2", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 2 version!")
+        elseif mapheaderinfo[gamemap].lvlttl == "Drenched Caverns" and act2 == 1 then
+            act2 = 0
+            S_ChangeMusic("dcz1", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 1 version!")
+    //Tubular Tunnels Changes
+        elseif mapheaderinfo[gamemap].lvlttl == "Tubular Tunnels" and act2 == 0 then
+            act2 = 1
+            S_ChangeMusic("ttz2", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 2 version!")
+        elseif mapheaderinfo[gamemap].lvlttl == "Tubular Tunnels" and act2 == 1 then
+            act2 = 0
+            S_ChangeMusic("ttz1", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 1 version!")
+    //Cloudy Cliff-Face Changes
+        elseif mapheaderinfo[gamemap].lvlttl == "Cloudy Cliff-Face" and act2 == 0 then
+            act2 = 1
+            S_ChangeMusic("ccfz2", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 2 version!")
+        elseif mapheaderinfo[gamemap].lvlttl == "Cloudy Cliff-Face" and act2 == 1 then
+            act2 = 0
+            S_ChangeMusic("ccfz1", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 1 version!")
+    //Blazing Vermilion Changes
+        elseif mapheaderinfo[gamemap].lvlttl == "Blazing Vermilion" and act2 == 0 then
+            act2 = 1
+            S_ChangeMusic("bvz2", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 2 version!")
+        elseif mapheaderinfo[gamemap].lvlttl == "Blazing Vermilion" and act2 == 1 then
+            act2 = 0
+            S_ChangeMusic("bvz1", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 1 version!")
+    //Forsaken Square Changes
+        elseif mapheaderinfo[gamemap].lvlttl == "Forsaken Square" and act2 == 0 then
+            act2 = 1
+            S_ChangeMusic("fsz2", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 2 version!")
+        elseif mapheaderinfo[gamemap].lvlttl == "Forsaken Square" and act2 == 1 then
+            act2 = 0
+            S_ChangeMusic("fsz1", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 1 version!")
+    //'Osphere Doomship Changes
+        elseif mapheaderinfo[gamemap].lvlttl == "'Osphere Doomship" and act2 == 0 then
+            act2 = 1
+            S_ChangeMusic("odz2", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 2 version!")
+        elseif mapheaderinfo[gamemap].lvlttl == "'Osphere Doomship" and act2 == 1 then
+            act2 = 0
+            S_ChangeMusic("odz1", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 1 version!")
+    //Frantic Geode Changes
+        elseif mapheaderinfo[gamemap].lvlttl == "Frantic Geode" and act2 == 0 then
+            act2 = 1
+            S_ChangeMusic("fgz2", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 2 version!")
+        elseif mapheaderinfo[gamemap].lvlttl == "Frantic Geode" and act2 == 1 then
+            act2 = 0
+            S_ChangeMusic("fgz1", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 1 version!")
+        end
+    end
+end)
+
+addHook("PlayerThink", function(player)
+    if not (player.mo and player.mo.valid) then return end
+
+    if player.press3 == nil then
+        player.press3 = 0
+    end
+
+    if (player.cmd.buttons & BT_CUSTOM3) then
+        player.press3 = 1
+    else
+        player.press3 = 0
+    end
+
+    if player.press3 == 1 then
+        COM_BufInsertText(player, "dr_changetrack")
+    end
+end)

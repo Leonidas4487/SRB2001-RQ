@@ -509,7 +509,7 @@ Keywords = LHZ1
 Music = LHZ1
 TypeOfLevel = Singleplayer,Co-op,Competition,Race
 NextLevel = TITLE
-SkyNum = 129
+SkyNum = 35
 RecordAttack = true
 LevelSelect = 2
 SaveGame = true
@@ -1306,6 +1306,21 @@ NextLevel = 1
 SkyNum = 100
 LevelSelect = 1
 SaveGame = true
+
+#--SNIGLEPLAYER STAGES--
+Level A2
+Levelname = Angel's Heaven
+SubTitle = [INSERT FUNNY JOKE HERE]
+NoAct = 1
+Keywords = AHZ1
+Music = AHZ1
+NextLevel = TITLE
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+SkyNum = 69
+RecordAttack = true
+LevelSelect = 2
+SaveGame = true
+
 
 #--EMBLEMS & UNLOCKABLE STUFF--
 #--Sunset Flowers Zone Act 1--
