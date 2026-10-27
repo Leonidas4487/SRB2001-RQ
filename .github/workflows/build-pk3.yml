@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'src/**'
-      - '.github/workflows/build-pk3.yml'
 
 permissions:
   contents: read
@@ -19,22 +16,20 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Get short commit SHA
-        id: short_sha
-        run: echo "sha=${GITHUB_SHA::10}" >> "$GITHUB_OUTPUT"
-
-      - name: Set PK3 filename
-        id: pk3_name
-        run: echo "name=SRMFL_SRB2001-RQ_v0-${{ steps.short_sha.outputs.sha }}.pk3" >> "$GITHUB_OUTPUT"
+      - name: Set output filename
+        id: filename
+        run: |
+          SHORT_SHA="${GITHUB_SHA:0:10}"
+          echo "name=SRMFL_SRB2001-RQ_v0-${SHORT_SHA}.pk3" >> "$GITHUB_OUTPUT"
 
       - name: Package selected folder into PK3
         run: |
           cd src
-          zip -qr "../${{ steps.pk3_name.outputs.name }}" .
+          zip -r "../../${{ steps.filename.outputs.name }}" .
 
       - name: Upload PK3 artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.pk3_name.outputs.name }}
-          path: ${{ steps.pk3_name.outputs.name }}
+          name: ${{ steps.filename.outputs.name }}
+          path: ${{ steps.filename.outputs.name }}
           if-no-files-found: error
