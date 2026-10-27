@@ -123,6 +123,15 @@ COM_AddCommand("dr_changetrack", function(player, arg)
             act2 = 0
             S_ChangeMusic("fgz1", true, player)
             CONS_Printf(player, "\x88"+"Changed current zone track to their Act 1 version!")
+    //Last Holiday Changes
+        elseif mapheaderinfo[gamemap].lvlttl == "Last Holiday" and act2 == 0 then
+            act2 = 1
+            S_ChangeMusic("lhz2", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 2 version!")
+        elseif mapheaderinfo[gamemap].lvlttl == "Last Holiday" and act2 == 1 then
+            act2 = 0
+            S_ChangeMusic("lhz1", true, player)
+            CONS_Printf(player, "\x88"+"Changed current zone track to their Act 1 version!")
         end
     end
 end)
