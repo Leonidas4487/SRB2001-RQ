@@ -13,23 +13,35 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check out repository
+      - name: Check out source
         uses: actions/checkout@v4
 
-      - name: Set output filename
-        id: filename
+      - name: Set 10-character short SHA
+        id: vars
         run: |
-          SHORT_SHA="${GITHUB_SHA:0:10}"
-          echo "name=SRMFL_SRB2001-RQ_v0-${SHORT_SHA}.pk3" >> "$GITHUB_OUTPUT"
+          echo "short_sha=${GITHUB_SHA:0:10}" >> "$GITHUB_OUTPUT"
 
-      - name: Package selected folder into PK3
+      - name: Create PK3
+        env:
+          SOURCE_FOLDER: src   # <-- change this
+          PK3_NAME: SRMFL_SRB2001-RQ_v0-${{ steps.vars.outputs.short_sha }}.pk3
         run: |
-          cd src
-          zip -r "../../${{ steps.filename.outputs.name }}" .
+          set -euo pipefail
+
+          if [ ! -d "$SOURCE_FOLDER" ]; then
+            echo "Source folder does not exist: $SOURCE_FOLDER"
+            exit 1
+          fi
+
+          # Zip the folder's *contents* so files are at the PK3 root.
+          cd "$SOURCE_FOLDER"
+          zip -r "../$PK3_NAME" . -x '.*' -x '__MACOSX/*'
+
+          echo "Created: $PK3_NAME"
 
       - name: Upload PK3 artifact
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ steps.filename.outputs.name }}
-          path: ${{ steps.filename.outputs.name }}
+          name: SRMFL_SRB2001-RQ_v0-${{ steps.vars.outputs.short_sha }}
+          path: src/*.pk3
           if-no-files-found: error
