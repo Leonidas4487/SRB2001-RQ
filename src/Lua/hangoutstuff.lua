@@ -137,19 +137,9 @@ COM_AddCommand("dr_changetrack", function(player, arg)
 end)
 
 addHook("PlayerThink", function(player)
-    if not (player.mo and player.mo.valid) then return end
-
-    if player.press3 == nil then
-        player.press3 = 0
-    end
-
-    if (player.cmd.buttons & BT_CUSTOM3) then
-        player.press3 = 1
-    else
-        player.press3 = 0
-    end
-
-    if player.press3 == 1 then
+    local pressed = (player.cmd.buttons & BT_CUSTOM3) ~= 0
+    local wasPressed = (player.lastbuttons & BT_CUSTOM3) ~= 0
+    if pressed and not wasPressed then
         COM_BufInsertText(player, "dr_changetrack")
     end
 end)
