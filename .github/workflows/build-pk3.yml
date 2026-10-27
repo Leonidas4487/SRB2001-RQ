@@ -29,7 +29,7 @@ jobs:
 
       - name: Package selected folder into PK3
         run: |
-          cd path/to/source-folder
+          cd src
           zip -qr "../${{ steps.pk3_name.outputs.name }}" .
 
       - name: Upload PK3 artifact
