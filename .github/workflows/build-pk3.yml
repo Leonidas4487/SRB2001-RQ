@@ -6,7 +6,6 @@ on:
       - main
 
 env:
-  # Change this to the folder containing the files to put in the .pk3
   SOURCE_FOLDER: src
   PK3_BASENAME: SRMFL_SRB2001-RQ_v0
 
@@ -18,15 +17,15 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Create 10-character short SHA
+      - name: Short SHA
         id: sha
         run: echo "short_sha=${GITHUB_SHA::10}" >> "$GITHUB_OUTPUT"
 
-      - name: Build PK3 filename
+      - name: Build it
         id: pk3
         run: echo "filename=${{ env.PK3_BASENAME }}-${{ steps.sha.outputs.short_sha }}.pk3" >> "$GITHUB_OUTPUT"
 
-      - name: Package selected folder into PK3
+      - name: Package into .pk3
         run: |
           if [ ! -d "${{ env.SOURCE_FOLDER }}" ]; then
             echo "Source folder not found: ${{ env.SOURCE_FOLDER }}"
@@ -37,7 +36,7 @@ jobs:
           cd "${{ env.SOURCE_FOLDER }}"
           zip -r "../build/${{ steps.pk3.outputs.filename }}" . -x "*.git*" -x "*.DS_Store"
 
-      - name: Upload PK3 artifact
+      - name: Upload .pk3 artifact
         uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.pk3.outputs.filename }}
