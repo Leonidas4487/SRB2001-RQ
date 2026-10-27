@@ -25,7 +25,7 @@ jobs:
 
       - name: Set PK3 filename
         id: pk3_name
-        run: echo "name=SRMFL_SRB2001-RQ_v0-${{ steps.short_sha.outputs.sha }}" >> "$GITHUB_OUTPUT"
+        run: echo "name=SRMFL_SRB2001-RQ_v0-${{ steps.short_sha.outputs.sha }}.pk3" >> "$GITHUB_OUTPUT"
 
       - name: Package selected folder into PK3
         run: |
