@@ -1,4 +1,4 @@
-name: Build .pk3
+name: Build PK3
 
 on:
   push:
@@ -11,11 +11,11 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - name: Check repository
+        uses: actions/checkout@v5
 
       - name: Short SHA
         id: sha
@@ -37,7 +37,7 @@ jobs:
           zip -r "../build/${{ steps.pk3.outputs.filename }}" . -x "*.git*" -x "*.DS_Store"
 
       - name: Upload .pk3 artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ steps.pk3.outputs.filename }}
           path: build/${{ steps.pk3.outputs.filename }}
