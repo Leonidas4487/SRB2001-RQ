@@ -137,8 +137,8 @@ COM_AddCommand("dr_changetrack", function(player, arg)
 end)
 
 addHook("PlayerThink", function(player)
-    local pressed = (player.cmd.buttons & BT_CUSTOM3) ~= 0
-    local wasPressed = (player.lastbuttons & BT_CUSTOM3) ~= 0
+    local pressed = (player.cmd.buttons & BT_CUSTOM3) and (player.cmd.buttons & BT_TOSSFLAG) ~= 0
+    local wasPressed = (player.lastbuttons & BT_CUSTOM3) and (player.lastbuttons & BT_TOSSFLAG) ~= 0
     if pressed and not wasPressed then
         COM_BufInsertText(player, "dr_changetrack")
     end
