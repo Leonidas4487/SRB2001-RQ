@@ -196,3 +196,31 @@ Authors = "Leonidas4487"
 Soundtestpage = 2
 Soundtestcond = 0
 BPM = 150
+
+Lump S-SFZ1
+Title = Meet-up!_(SFZ1)
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 0
+BPM = 94
+
+Lump S-SFZ2
+Title = Meet-up!_(SFZ2)
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 0
+BPM = 94
+
+Lump S-FHZ1
+Title = Meet-up!_(FHZ1)
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 0
+BPM = 94
+
+Lump S-FHZ2
+Title = Meet-up!_(FHZ2)
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 0
+BPM = 94

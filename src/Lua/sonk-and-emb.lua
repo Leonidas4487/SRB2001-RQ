@@ -3,7 +3,7 @@ freeslot("MT_CUSEMB", "SPR_SOMB", "SPR_SOTN", "SFX_CUSEMB",
 "S_SOMBADV06", "S_SOMBADV07", "S_SOMBADV08", "S_SOMBADV09", "S_SOMBADV10", 
 "S_SOMBADV11", "S_SOMBADV12", "S_SOMBADV13", "S_SOMBADV14", "S_SOMBADV15", 
 "S_SOMBADV16", "S_SOMBADV17", "S_SOMBADV18", "S_SOMBADV19",
-"MT_SONIKINO", 
+"MT_SONIKINO",
 "SPR_SONK", "S_SONKIDLE1", "S_SONKIDLE2", "S_SONKIDLE3",
 "SPR_SFZ2", "S_SONKSFZ21", "S_SONKSFZ22", "S_SONKSFZ23",
 "SPR_FHZ1", "S_SONKFHZ11", "S_SONKFHZ12", "S_SONKFHZ13",
@@ -22,7 +22,10 @@ freeslot("MT_CUSEMB", "SPR_SOMB", "SPR_SOTN", "SFX_CUSEMB",
 "SPR_ODZ2", "S_SONKODZ21", "S_SONKODZ22", "S_SONKODZ23",
 "SPR_FGZ1", "S_SONKFGZ11", "S_SONKFGZ12", "S_SONKFGZ13",
 "SPR_FGZ2", "S_SONKFGZ21", "S_SONKFGZ22", "S_SONKFGZ23",
-"SPR_FGZ4", "S_SONKFGZ41", "S_SONKFGZ42", "S_SONKFGZ43")
+"SPR_FGZ4", "S_SONKFGZ41", "S_SONKFGZ42", "S_SONKFGZ43",
+//Space from LHZ
+"SPR_LHZ1", "S_SONKLHZ11", "S_SONKLHZ12", "S_SONKLHZ13",
+"SPR_LHZ2", "S_SONKLHZ21", "S_SONKLHZ22", "S_SONKLHZ23")
 
 states[S_SOMBADV01] = { SPR_SOMB, A, -1, nil, 0, 0, S_NULL }
 states[S_SOMBADV02] = { SPR_SOMB, B, -1, nil, 0, 0, S_NULL }
@@ -138,6 +141,16 @@ states[S_SONKFGZ23] = { SPR_FGZ2, C, 4, nil, 0, 0, S_SONKFGZ21 }
 states[S_SONKFGZ41] = { SPR_FGZ4, A, 4, nil, 0, 0, S_SONKFGZ42 }
 states[S_SONKFGZ42] = { SPR_FGZ4, B, 4, nil, 0, 0, S_SONKFGZ43 }
 states[S_SONKFGZ43] = { SPR_FGZ4, C, 4, nil, 0, 0, S_SONKFGZ41 }
+
+//Last Holiday Zone Act 1
+states[S_SONKLHZ11] = { SPR_LHZ1, A, 4, nil, 0, 0, S_SONKLHZ12 }
+states[S_SONKLHZ12] = { SPR_LHZ1, B, 4, nil, 0, 0, S_SONKLHZ13 }
+states[S_SONKLHZ13] = { SPR_LHZ1, C, 4, nil, 0, 0, S_SONKLHZ11 }
+
+//Last Holiday Zone Act 2
+states[S_SONKLHZ21] = { SPR_LHZ2, A, 4, nil, 0, 0, S_SONKLHZ22 }
+states[S_SONKLHZ22] = { SPR_LHZ2, B, 4, nil, 0, 0, S_SONKLHZ23 }
+states[S_SONKLHZ23] = { SPR_LHZ2, C, 4, nil, 0, 0, S_SONKLHZ21 }
 
 sfxinfo[sfx_cusemb] = {
         singular = false,
@@ -735,12 +748,14 @@ addHook("MapThingSpawn", function(mo, mt)
     end
 end, MT_SONIKINO)
 
+// Because apparently dialog only works on singleplayer :|
 addHook("MapLoad", function(mapnum)
-    -- Sunset Flowers 2
-    if mapheaderinfo[mapnum].lvlttl == "Sunset Flowers" and mapheaderinfo[mapnum].actnum == 2 or netgame then
+    if not hasEmblem(1) or netgame then
+    if mapheaderinfo[mapnum].lvlttl == "Sunset Flowers" and mapheaderinfo[mapnum].actnum == 2 then
         for sector in sectors.iterate do
             if sector.triggertag == 5 then
                 sector.triggertag = 0
+                end
             end
         end
     end

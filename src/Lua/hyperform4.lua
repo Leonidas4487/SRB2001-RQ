@@ -10,6 +10,36 @@ rawset(_G, "YouHyper", function(p)
 	end
 end)
 
+local HyperTrack = "_hyper"
+
+addHook("PlayerThink", function(player)
+if mapheaderinfo[gamemap].lvlttl == "Final Fright" and player.powers[pw_super] then
+	S_ChangeMusic("finalb", true, player)
+	HyperTrack = "finalb"
+    end
+end)
+
+COM_AddCommand("dr_hypertrack", function(player, track)
+    if not track or track == "" then
+        CONS_Printf(player, "Changes the music that plays when going hyper (can't change it when already hyper).")
+		CONS_Printf(player, "The current track is:\""..HyperTrack.."\"")
+        return
+    end
+
+    track = string.upper(track)
+    track = track:gsub("[^A-Z0-9_]", "")
+    track = string.sub(track, 1, 6)
+
+    HyperTrack = track
+
+    if not S_MusicExists(HyperTrack) then
+        CONS_Printf(player, "Music lump \""..HyperTrack.."\" was not found, resetting to default track.")
+		HyperTrack = "_hyper"
+    else
+        CONS_Printf(player, "Hyper music was set to: \""..HyperTrack.."\"")
+    end
+end, COM_LOCAL)
+
 local theMusu = 0
 addHook("PreThinkFrame", function(r)
 	if (gamestate ~= GS_LEVEL) then return end
@@ -31,10 +61,10 @@ addHook("MusicChange", function(om, nm)
 	if (consoleplayer and consoleplayer.mo and consoleplayer.mo.valid)
 	and consoleplayer.mo.health and YouHyper(consoleplayer)
 	and (nm == "_shoes" or nm == "_inv" or nm == "_minv" or nm == mapmusname or nm == "_super" or nm == "xsss") then
-		if om == "_hyper" then
+		if om == HyperTrack then
 			return true
 		else
-			return "_hyper", 0, true, theMusu
+			return HyperTrack, 0, true, theMusu
 		end
 	end
 	if (consoleplayer and consoleplayer.mo and consoleplayer.mo.valid)
@@ -126,3 +156,11 @@ COM_AddCommand("dr_noneshield", function(player, arg)
         CONS_Printf(player, "Your shield has been removed.")
     return
 end, COM_ADMIN)
+
+addHook("TouchSpecial", function(token, p)
+    if p.valid and p.player and p.health and not p.bot or p.spectator then
+        if All7Emeralds(emeralds) then
+        p.player.rings = $ + 50
+        end
+    end
+end, MT_TOKEN)

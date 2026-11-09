@@ -8,7 +8,7 @@ NumDemos = 0
 TitleScrollSpeed = 30
 TitlePicsMode = Alacroix
 TitlePicsScalesAvailable = 2,4,5
-TitleMap = Z0
+TitleMap = Z1
 LoopTitle = false
 IntroToPlay = 128
 SStage_Start = B1
@@ -45,7 +45,7 @@ NoSSMusic = true
 NoTitleCard = true
 MusicInter = _SUPCL
 
-Level Z0
+Level Z1
 Levelname = Titlemap
 Act = 0
 NoZone = true
@@ -58,7 +58,7 @@ NoTitleCard = true
 #--SNIGLEPLAYER STAGES--
 Level 1
 Levelname = Sunset Flowers
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = ~ At the start of a sunset ~
 Act = 1
 Keywords = SFZ1
 Music = SFZ1
@@ -71,7 +71,7 @@ SaveGame = true
 
 Level 2
 Levelname = Sunset Flowers
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = ~ Sleepy flowers up ahead ~
 Act = 2
 Keywords = SFZ2
 Music = SFZ2
@@ -84,7 +84,7 @@ SaveGame = true
 
 Level 3
 Levelname = Sunset Flowers
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = ~ Fighting for peace again ~
 Act = 3
 Keywords = SFZ3
 Music = VSALT
@@ -503,7 +503,7 @@ WideIcon = true
 
 Level 31
 Levelname = Last Hoilday
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = ~ Mountain from another place ~
 Act = 0
 Keywords = LHZ1
 Music = LHZ1
@@ -1311,7 +1311,7 @@ SaveGame = true
 Level A2
 Levelname = Angel's Heaven
 SubTitle = [INSERT FUNNY JOKE HERE]
-NoAct = 1
+Act = 0
 Keywords = AHZ1
 Music = AHZ1
 NextLevel = TITLE
@@ -1325,7 +1325,7 @@ SaveGame = true
 #--EMBLEMS & UNLOCKABLE STUFF--
 #--Sunset Flowers Zone Act 1--
 Emblem
-Hint = At the start, with some flowers.
+Hint = At the start, in a mini mountain with some flowers.
 Type = Global
 Tag = 0
 MapNum = 1
@@ -1333,7 +1333,7 @@ Sprite = A
 Color = SKINCOLOR_BLUE
 
 Emblem
-Hint = Custodied by some crawlas.
+Hint = Custodied by some crawlas when passing by a bridge.
 Type = Global
 Tag = 1
 MapNum = 1
@@ -1341,7 +1341,7 @@ Sprite = B
 Color = SKINCOLOR_RED
 
 Emblem
-Hint = Under the broken bridge.
+Hint = Under the broken bridge in the 2nd section.
 Type = Global
 Tag = 2
 MapNum = 1
@@ -1349,7 +1349,7 @@ Sprite = C
 Color = SKINCOLOR_PURPLE
 
 Emblem
-Hint = Follow the water current.
+Hint = Follow the water current in the lower section.
 Type = Global
 Tag = 3
 MapNum = 1
@@ -1357,7 +1357,7 @@ Sprite = D
 Color = SKINCOLOR_ORANGE
 
 Emblem
-Hint = Near the end, very hidden.
+Hint = Near the end, very hidden between bushes.
 Type = Global
 Tag = 4
 MapNum = 1
@@ -1373,14 +1373,14 @@ Color = SKINCOLOR_CLOUDY
 
 Emblem
 Type = Rings
-Var = 280
+Var = 240
 MapNum = 1
 Sprite = R
 Color = SKINCOLOR_SANDY
 
 #--Sunset Flowers Zone Act 2--
 Emblem
-Hint = At the start, near the springs.
+Hint = At the start, near the springs from the intro.
 Type = Global
 Tag = 0
 MapNum = 2
@@ -1388,7 +1388,7 @@ Sprite = A
 Color = SKINCOLOR_BLUE
 
 Emblem
-Hint = Inside a house.
+Hint = Inside a house at the top of the first section.
 Type = Global
 Tag = 1
 MapNum = 2
@@ -1396,7 +1396,7 @@ Sprite = B
 Color = SKINCOLOR_RED
 
 Emblem
-Hint = HINT 3
+Hint = Check in those wooden pillars and find the broken one.
 Type = Global
 Tag = 2
 MapNum = 2
@@ -1404,7 +1404,7 @@ Sprite = C
 Color = SKINCOLOR_PURPLE
 
 Emblem
-Hint = HINT 4
+Hint = In Amy's path, destroy a block in a wall near the other ones.
 Type = Global
 Tag = 3
 MapNum = 2
@@ -1412,7 +1412,7 @@ Sprite = D
 Color = SKINCOLOR_ORANGE
 
 Emblem
-Hint = HINT 5
+Hint = Also very hidden, try searching between trees.
 Type = Global
 Tag = 4
 MapNum = 2
@@ -1421,7 +1421,7 @@ Color = SKINCOLOR_EMERALD
 
 Emblem
 Type = Time
-Var = 120*TICRATE
+Var = 100*TICRATE
 MapNum = 2
 Sprite = T
 Color = SKINCOLOR_CLOUDY
@@ -1465,6 +1465,61 @@ Tag = 0
 MapNum = 34
 Sprite = A
 Color = SKINCOLOR_BLUE
+
+#--Last Holiday Zone--
+Emblem
+Hint = Before the entering the 2nd cave, look between the ice blocks.
+Type = Global
+Tag = 0
+MapNum = 31
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = In the left path, check below the ice bridge.
+Type = Global
+Tag = 1
+MapNum = 31
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = Just after getting to Act 2, check your right.
+Type = Global
+Tag = 2
+MapNum = 31
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = When going on the left path, before entering the big hole, check the borders of the land.
+Type = Global
+Tag = 3
+MapNum = 31
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = In the last fudge river, check the corners.
+Type = Global
+Tag = 4
+MapNum = 31
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 143*TICRATE
+MapNum = 31
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 575
+MapNum = 31
+Sprite = R
+Color = SKINCOLOR_SANDY
 
 #--Unlockables & Conditions--
 Unlockable 1
