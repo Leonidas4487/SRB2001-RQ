@@ -747,16 +747,3 @@ addHook("MapThingSpawn", function(mo, mt)
         mo.state = S_NULL
     end
 end, MT_SONIKINO)
-
-// Because apparently dialog only works on singleplayer :|
-addHook("MapLoad", function(mapnum)
-    if not hasEmblem(1) or netgame then
-    if mapheaderinfo[mapnum].lvlttl == "Sunset Flowers" and mapheaderinfo[mapnum].actnum == 2 then
-        for sector in sectors.iterate do
-            if sector.triggertag == 5 then
-                sector.triggertag = 0
-                end
-            end
-        end
-    end
-end)

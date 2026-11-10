@@ -28,7 +28,7 @@ Clear Emblems
 Clear Levels
 Clear All
 
-Level 99
+Level A2
 Levelname = Credits???
 Act = 0
 NoZone = true
@@ -58,7 +58,7 @@ NoTitleCard = true
 #--SNIGLEPLAYER STAGES--
 Level 1
 Levelname = Sunset Flowers
-SubTitle = ~ At the start of a sunset ~
+SubTitle = A Blooming Good Sunset
 Act = 1
 Keywords = SFZ1
 Music = SFZ1
@@ -71,7 +71,7 @@ SaveGame = true
 
 Level 2
 Levelname = Sunset Flowers
-SubTitle = ~ Sleepy flowers up ahead ~
+SubTitle = Picnic Panic, Petal Power
 Act = 2
 Keywords = SFZ2
 Music = SFZ2
@@ -84,7 +84,7 @@ SaveGame = true
 
 Level 3
 Levelname = Sunset Flowers
-SubTitle = ~ Fighting for peace again ~
+SubTitle = Egg-cellent Tree-mendous Trouble
 Act = 3
 Keywords = SFZ3
 Music = VSALT
@@ -102,7 +102,7 @@ WarningTitle = true
 
 Level 4
 Levelname = Forgotten Hardware
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Circuit Breakdown
 Act = 1
 Keywords = FHZ1
 Music = FHZ1
@@ -115,7 +115,7 @@ SaveGame = true
 
 Level 5
 Levelname = Forgotten Hardware
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Wired for Disaster
 Act = 2
 Keywords = FHZ2
 Music = FHZ2
@@ -128,7 +128,7 @@ SaveGame = true
 
 Level 6
 Levelname = Forgotten Hardware
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Goo-dbye, Egghead!
 Act = 3
 Keywords = FHZ3
 Music = VSALT
@@ -146,7 +146,7 @@ WarningTitle = true
 
 Level 7
 Levelname = Drenched Caverns
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Current Events
 Act = 1
 Keywords = DCZ1
 Music = DCZ1
@@ -159,7 +159,7 @@ SaveGame = true
 
 Level 8
 Levelname = Drenched Caverns
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Temple Run, Tide and True
 Act = 2
 Keywords = DCZ2
 Music = DCZ2
@@ -172,7 +172,7 @@ SaveGame = true
 
 Level 9
 Levelname = Drenched Caverns
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Egg-stra Deep Sea-crets
 Act = 3
 Keywords = DCZ3
 Music = VSALT
@@ -190,7 +190,7 @@ WarningTitle = true
 
 Level 10
 Levelname = Tubular Tunnels
-SubTitle = 	[INSERT FUNNY JOKE HERE]
+SubTitle = 	Mine Maze? More Like Mine Pain
 Act = 1
 Keywords = TTZ1
 Music = TTZ1
@@ -203,7 +203,7 @@ SaveGame = true
 
 Level 11
 Levelname = Tubular Tunnels
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Crystal Clear Catastrophe
 Act = 2
 Keywords = TTZ2
 Music = TTZ2
@@ -216,7 +216,7 @@ SaveGame = true
 
 Level 12
 Levelname = Tubular Tunnels
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Egg-cavation Station
 Act = 3
 Keywords = TTZ3
 Music = VSALT
@@ -234,7 +234,7 @@ WarningTitle = true
 
 Level 13
 Levelname = Cloudy Cliff-Face
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Peak Performance
 Act = 1
 Keywords = CCFZ1
 Music = CCFZ1
@@ -247,7 +247,7 @@ SaveGame = true
 
 Level 14
 Levelname = Cloudy Cliff-Face
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Head in the Clouds
 Act = 2
 Keywords = CCFZ2
 Music = CCFZ2
@@ -260,7 +260,7 @@ SaveGame = true
 
 Level 15
 Levelname = Cloudy Cliff-Face
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Egg-splosive Bridge to Nowhere
 Act = 3
 Keywords = CCFZ3
 Music = VSALT
@@ -278,7 +278,7 @@ WarningTitle = true
 
 Level 16
 Levelname = Blazing Vermilion
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Lava a Good Time
 Act = 1
 Keywords = BVZ1
 Music = BVZ1
@@ -291,7 +291,7 @@ SaveGame = true
 
 Level 17
 Levelname = Blazing Vermilion
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Rocking and Rolling
 Act = 2
 Keywords = BVZ2
 Music = BVZ2
@@ -304,7 +304,7 @@ SaveGame = true
 
 Level 18
 Levelname = Blazing Vermilion
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Egg-splosion at the Summit
 Act = 3
 Keywords = BVZ3
 Music = VSALT
@@ -322,7 +322,7 @@ WarningTitle = true
 
 Level 19
 Levelname = Forsaken Square
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Dead End Job
 Act = 1
 Keywords = FSZ1 
 Music = FSZ1
@@ -335,7 +335,7 @@ SaveGame = true
 
 Level 20
 Levelname = Forsaken Square
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Seweriously Bad Business
 Act = 2
 Keywords = FSZ2
 Music = FSZ2
@@ -348,7 +348,7 @@ SaveGame = true
 
 Level 21
 Levelname = Forsaken Square
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Egg-spense Account
 Act = 3
 Keywords = FSZ3
 Music = VSALT
@@ -366,7 +366,7 @@ WarningTitle = true
 
 Level 22
 Levelname = 'Osphere Doomship
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = High Winds, Low Morale
 Act = 1
 Keywords = ODZ1
 Music = ODZ1
@@ -379,7 +379,7 @@ SaveGame = true
 
 Level 23
 Levelname = 'Osphere Doomship
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Laser-Focused Escape
 Act = 2
 Keywords = ODZ2
 Music = ODZ2
@@ -392,7 +392,7 @@ SaveGame = true
 
 Level 24
 Levelname = 'Osphere Doomship
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Egg-stra Large Problem
 Act = 3
 Keywords = ODZ3
 Music = VSALT
@@ -410,7 +410,7 @@ WarningTitle = true
 
 Level 25
 Levelname = Frantic Geode
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Asteroid Anxiety
 Act = 1
 Keywords = FGZ1
 Music = FGZ1
@@ -423,7 +423,7 @@ SaveGame = true
 
 Level 26
 Levelname = Frantic Geode
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Gravity? What's that?
 Act = 2
 Keywords = FGZ2
 Music = FGZ2
@@ -436,7 +436,7 @@ SaveGame = true
 
 Level 27
 Levelname = Frantic Geode
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Egg-centric Core Values
 Act = 3
 Keywords = FGZ3
 Music = VSALT
@@ -454,12 +454,12 @@ WarningTitle = true
 
 Level 28
 Levelname = Frantic Geode
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Brak-ing Point
 Act = 4
 Keywords = FGZ4
 Music = VSBRAK
 TypeOfLevel = Singleplayer,Co-op,Competition,Race
-NextLevel = 99
+NextLevel = A2
 SkyNum = 22
 RecordAttack = true
 LevelSelect = 1
@@ -475,12 +475,12 @@ MusicInter = _SUPCL
 
 Level 29
 Levelname = Hidden Palace
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Palace Intrigue
 Act = 0
 Keywords = HPZ1
 Music = HPZ1
 TypeOfLevel = Singleplayer,Co-op,Competition,Race
-NextLevel = 15
+NextLevel = TITLE
 SkyNum = 1
 RecordAttack = true
 LevelSelect = 2
@@ -489,7 +489,7 @@ WideIcon = true
 
 Level 30
 Levelname = Ween-a-Trickery
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Grave New World
 Act = 0
 Keywords = WATZ1
 Music = WATZ1
@@ -503,7 +503,7 @@ WideIcon = true
 
 Level 31
 Levelname = Last Hoilday
-SubTitle = ~ Mountain from another place ~
+SubTitle = Peak Season
 Act = 0
 Keywords = LHZ1
 Music = LHZ1
@@ -518,7 +518,7 @@ Weather = 2
 
 Level 32
 Levelname = Lovely Air
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Love at First Sludge
 Act = 0
 Keywords = LAZ1
 Music = LAZ1
@@ -532,7 +532,7 @@ WideIcon = true
 
 Level 33
 Levelname = Knothole Coast
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Shore Thing!
 Act = 0
 Keywords = KCZ1
 Music = KCZ1
@@ -546,7 +546,7 @@ WideIcon = true
 
 Level 34
 Levelname = Shattered Nightmares
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Maze Amok...
 Act = 0
 Keywords = SNZ1
 Music = SNZ1
@@ -561,10 +561,10 @@ Weather = 1
 
 Level 35
 Levelname = Fortress Yolk
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Shell-Shocked!
 Act = 0
-Keywords = ECAZ1
-Music = ECAZ1
+Keywords = FYZ1
+Music = FYZ1
 TypeOfLevel = Singleplayer,Co-op,Competition,Race
 NextLevel = TITLE
 SkyNum = 1
@@ -575,7 +575,7 @@ WideIcon = true
 
 Level 36
 Levelname = Deserted Valley
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Cactus Makes Perfect
 Act = 0
 Keywords = DVZ1
 Music = DVZ1
@@ -589,7 +589,7 @@ WideIcon = true
 
 Level 37
 Levelname = Jungle Woods
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Vine and Dandy!
 Act = 0
 Keywords = JWZ1
 Music = JWZ1
@@ -601,611 +601,19 @@ LevelSelect = 2
 SaveGame = true
 WideIcon = true
 
-#--HANGOUT STAGES--
-
 Level 38
-Levelname = Sunset Flowers
-SubTitle = Hangout 1
-TypeOfLevel = Hangout
-Keywords = SFZH
-Music = SFZ1
-NextLevel = 38
-SkyNum = 4
-SelectHeading = Hangout Stages
-
-Level 39
-Levelname = Forgotten Hardware
-SubTitle = Hangout 2
-TypeOfLevel = Hangout
-Keywords = FHZH
-Music = FHZ1
-NextLevel = 39
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 40
-Levelname = Drenched Caverns
-SubTitle = Hangout 3
-TypeOfLevel = Hangout
-Keywords = DCZH
-Music = DCZ1
-NextLevel = 40
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 41
-Levelname = Tubular Tunnels
-SubTitle = Hangout 4
-TypeOfLevel = Hangout
-Keywords = TTZH
-Music = TTZ1
-NextLevel = 41
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 42
-Levelname = Cloudy Cliff-Face
-SubTitle = Hangout 5
-TypeOfLevel = Hangout
-Keywords = CCFZH
-Music = CCFZ1
-NextLevel = 42
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 43
-Levelname = Blazing Vermilion
-SubTitle = Hangout 6
-TypeOfLevel = Hangout
-Keywords = BVZH
-Music = BVZ1
-NextLevel = 43
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 44
-Levelname = Forsaken Square
-SubTitle = Hangout 7
-TypeOfLevel = Hangout
-Keywords = FSZH
-Music = FSZ1
-NextLevel = 44
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 45
-Levelname = 'Osphere Doomship
-SubTitle = Hangout 8
-TypeOfLevel = Hangout
-Keywords = ODZH
-Music = ODZ1
-NextLevel = 45
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 46
-Levelname = Frantic Geode
-SubTitle = Hangout 9
-TypeOfLevel = Hangout
-Keywords = FGZH
-Music = FGZ1
-NextLevel = 46
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 47
-Levelname = Hidden Palace
-SubTitle = Hangout 10
-TypeOfLevel = Hangout
-Keywords = HPZH
-Music = HPZ1
-NextLevel = 47
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 48
-Levelname = Ween-a-Trickery
-SubTitle = Hangout 11
-TypeOfLevel = Hangout
-Keywords = WATZH
-Music = WATZ1
-NextLevel = 48
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 49
-Levelname = Last Hoilday
-SubTitle = Hangout 12
-TypeOfLevel = Hangout
-Keywords = LHZH
-Music = LHZ1
-NextLevel = 49
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 50
-Levelname = Lovely Air
-SubTitle = Hangout 13
-TypeOfLevel = Hangout
-Keywords = LAZH
-Music = LAZ1
-NextLevel = 50
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 51
-Levelname = Knothole Coast
-SubTitle = Hangout 14
-TypeOfLevel = Hangout
-Keywords = KCZH
-Music = KCZ1
-NextLevel = 51
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 52
-Levelname = Shattered Nightmares
-SubTitle = Hangout 15
-TypeOfLevel = Hangout
-Keywords = SNZH
-Music = SNZ1
-NextLevel = 52
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 53
-Levelname = Fortress Yolk
-SubTitle = Hangout 16
-TypeOfLevel = Hangout
-Keywords = ECAZH
-Music = ECAZ1
-NextLevel = 53
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 54
-Levelname = Deserted Valley
-SubTitle = Hangout 17
-TypeOfLevel = Hangout
-Keywords = DVZH
-Music = DVZ1
-NextLevel = 54
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 55
-Levelname = Jungle Woods
-SubTitle = Hangout 18
-TypeOfLevel = Hangout
-Keywords = JWZH
-Music = JWZ1
-NextLevel = 55
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 56
-Levelname = Passing Calender
-SubTitle = Hangout 19
-TypeOfLevel = Hangout
-Keywords = RYZH
-Music = RYZ1
-NextLevel = 56
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-Level 57
-Levelname = Alien's Crib
-SubTitle = Hangout 20
-TypeOfLevel = Hangout
-Keywords = ACZH
-Music = ACZ1
-NextLevel = 37
-SkyNum = 6
-SelectHeading = Hangout Stages
-
-#--CTF STAGES--
-
-Level 58
-Levelname = Sunset Flowers
-SubTitle = CTF 1
-TypeOfLevel = CTF
-Keywords = SFZ1M
-Music = SFZ1
-NextLevel = 58
-SkyNum = 4
-SelectHeading = CTF Stages
-
-Level 59
-Levelname = Forgotten Hardware
-SubTitle = CTF 2
-TypeOfLevel = CTF
-Keywords = FHZM
-Music = FHZ1
-NextLevel = 59
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 60
-Levelname = Drenched Caverns
-SubTitle = CTF 3
-TypeOfLevel = CTF
-Keywords = DCZM
-Music = DCZ1
-NextLevel = 60
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 61
-Levelname = Tubular Tunnels
-SubTitle = CTF 4
-TypeOfLevel = CTF
-Keywords = TTZM
-Music = TTZ1
-NextLevel = 61
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 62
-Levelname = Cloudy Cliff-Face
-SubTitle = CTF 5
-TypeOfLevel = CTF
-Keywords = CCFZM
-Music = CCFZ1
-NextLevel = 62
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 63
-Levelname = Blazing Vermilion
-SubTitle = CTF 6
-TypeOfLevel = CTF
-Keywords = BVZM
-Music = BVZ1
-NextLevel = 43
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 64
-Levelname = Forsaken Square
-SubTitle = CTF 7
-TypeOfLevel = CTF
-Keywords = FSZM
-Music = FSZ1
-NextLevel = 64
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 65
-Levelname = 'Osphere Doomship
-SubTitle = CTF 8
-TypeOfLevel = CTF
-Keywords = ODZM
-Music = ODZ1
-NextLevel = 65
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 66
-Levelname = Frantic Geode
-SubTitle = CTF 9
-TypeOfLevel = CTF
-Keywords = FGZM
-Music = FGZ1
-NextLevel = 66
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 67
-Levelname = Hidden Palace
-SubTitle = CTF 10
-TypeOfLevel = CTF
-Keywords = HPZM
-Music = HPZ1
-NextLevel = 67
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 68
-Levelname = Ween-a-Trickery
-SubTitle = CTF 11
-TypeOfLevel = CTF
-Keywords = WATZM
-Music = WATZ1
-NextLevel = 68
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 69
-Levelname = Last Hoilday
-SubTitle = CTF 12
-TypeOfLevel = CTF
-Keywords = LHZM
-Music = LHZ1
-NextLevel = 69
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 70
-Levelname = Lovely Air
-SubTitle = CTF 13
-TypeOfLevel = CTF
-Keywords = LAZM
-Music = LAZ1
-NextLevel = 70
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 71
-Levelname = Knothole Coast
-SubTitle = CTF 14
-TypeOfLevel = CTF
-Keywords = KCZM
-Music = KCZ1
-NextLevel = 71
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 72
-Levelname = Shattered Nightmares
-SubTitle = CTF 15
-TypeOfLevel = CTF
-Keywords = SNZM
-Music = SNZ1
-NextLevel = 72
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 73
-Levelname = Fortress Yolk
-SubTitle = CTF 16
-TypeOfLevel = CTF
-Keywords = ECAZM
-Music = ECAZ1
-NextLevel = 73
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 74
-Levelname = Deserted Valley
-SubTitle = CTF 17
-TypeOfLevel = CTF
-Keywords = DVZM
-Music = DVZ1
-NextLevel = 74
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 75
-Levelname = Jungle Woods
-SubTitle = CTF 18
-TypeOfLevel = CTF
-Keywords = JWZM
-Music = JWZ1
-NextLevel = 75
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 76
-Levelname = Passing Calender
-SubTitle = CTF 19
-TypeOfLevel = CTF
-Keywords = RYZM
-Music = RYZ1
-NextLevel = 76
-SkyNum = 6
-SelectHeading = CTF Stages
-
-Level 77
-Levelname = EVIL Alien's Crib
-SubTitle = CTF 20
-TypeOfLevel = CTF
-Keywords = ACZM
-Music = ACZ1
-NextLevel = 57
-SkyNum = 6
-SelectHeading = CTF Stages
-
-#--MATCH & TAG STAGES--
-
-Level 78
-Levelname = Sunset Flowers
-SubTitle = Match & Tag 1
-TypeOfLevel = Match,Tag
-Keywords = SFZ1M
-Music = SFZ1
-NextLevel = 78
-SkyNum = 4
-SelectHeading = Match & Tag Stages
-
-Level 79
-Levelname = Forgotten Hardware
-SubTitle = Match & Tag 2
-TypeOfLevel = Match,Tag
-Keywords = FHZM
-Music = FHZ1
-NextLevel = 79
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 80
-Levelname = Drenched Caverns
-SubTitle = Match & Tag 3
-TypeOfLevel = Match,Tag
-Keywords = DCZM
-Music = DCZ1
-NextLevel = 80
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 81
-Levelname = Tubular Tunnels
-SubTitle = Match & Tag 4
-TypeOfLevel = Match,Tag
-Keywords = TTZM
-Music = TTZ1
-NextLevel = 81
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 82
-Levelname = Cloudy Cliff-Face
-SubTitle = Match & Tag 5
-TypeOfLevel = Match,Tag
-Keywords = CCFZM
-Music = CCFZ1
-NextLevel = 82
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 83
-Levelname = Blazing Vermilion
-SubTitle = Match & Tag 6
-TypeOfLevel = Match,Tag
-Keywords = BVZM
-Music = BVZ1
-NextLevel = 83
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 84
-Levelname = Forsaken Square
-SubTitle = Match & Tag 7
-TypeOfLevel = Match,Tag
-Keywords = FSZM
-Music = FSZ1
-NextLevel = 84
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 85
-Levelname = 'Osphere Doomship
-SubTitle = Match & Tag 8
-TypeOfLevel = Match,Tag
-Keywords = ODZM
-Music = ODZ1
-NextLevel = 85
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 86
-Levelname = Frantic Geode
-SubTitle = Match & Tag 9
-TypeOfLevel = Match,Tag
-Keywords = FGZM
-Music = FGZ1
-NextLevel = 86
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 87
-Levelname = Hidden Palace
-SubTitle = Match & Tag 10
-TypeOfLevel = Match,Tag
-Keywords = HPZM
-Music = HPZ1
-NextLevel = 87
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 88
-Levelname = Ween-a-Trickery
-SubTitle = Match & Tag 11
-TypeOfLevel = Match,Tag
-Keywords = WATZM
-Music = WATZ1
-NextLevel = 88
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 89
-Levelname = Last Hoilday
-SubTitle = Match & Tag 12
-TypeOfLevel = Match,Tag
-Keywords = LHZM
-Music = LHZ1
-NextLevel = 89
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 90
-Levelname = Lovely Air
-SubTitle = Match & Tag 13
-TypeOfLevel = Match,Tag
-Keywords = LAZM
-Music = LAZ1
-NextLevel = 90
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 91
-Levelname = Knothole Coast
-SubTitle = Match & Tag 14
-TypeOfLevel = Match,Tag
-Keywords = KCZM
-Music = KCZ1
-NextLevel = 91
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 92
-Levelname = Shattered Nightmares
-SubTitle = Match & Tag 15
-TypeOfLevel = Match,Tag
-Keywords = SNZM
-Music = SNZ1
-NextLevel = 92
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 93
-Levelname = Fortress Yolk
-SubTitle = Match & Tag 16
-TypeOfLevel = Match,Tag
-Keywords = ECAZM
-Music = ECAZ1
-NextLevel = 93
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 94
-Levelname = Deserted Valley
-SubTitle = Match & Tag 17
-TypeOfLevel = Match,Tag
-Keywords = DCZM
-Music = DCZ1
-NextLevel = 94
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 95
-Levelname = Jungle Woods
-SubTitle = Match & Tag 18
-TypeOfLevel = Match,Tag
-Keywords = JWZM
-Music = JWZ1
-NextLevel = 95
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 96
-Levelname = Passing Calender
-SubTitle = Match & Tag 19
-TypeOfLevel = Match,Tag
-Keywords = RYZM
-Music = RYZ1
-NextLevel = 96
-SkyNum = 6
-SelectHeading = Match & Tag Stages
-
-Level 97
-Levelname = EVIL Alien's Crib
-SubTitle = Match & Tag 20
-TypeOfLevel = Match,Tag
-Keywords = ACZM
-Music = ACZ1
-NextLevel = 77
-SkyNum = 6
-SelectHeading = Match & Tag Stages
+Levelname = Angel's Heaven
+SubTitle = Heavenly Bodies
+Act = 0
+Keywords = AHZ1
+Music = AHZ1
+NextLevel = TITLE
+TypeOfLevel = Singleplayer,Co-op,Competition,Race
+SkyNum = 69
+RecordAttack = true
+LevelSelect = 2
+SaveGame = true
+WideIcon = true
 
 #--SPECIAL STAGEES--
 Level B1
@@ -1278,26 +686,26 @@ SelectHeading = Special Stages
 TypeOfLevel = Singleplayer,Co-op
 Music = SPECI
 
-#--THINGS I FORGOT XDDDDD--
-
+#--EXTRAS--
 Level A1
 Levelname = Final Fright
-SubTitle = [INSERT FUNNY JOKE HERE]
+SubTitle = Geode Must Die
 Act = 0
 NoZone = 1
 Keywords = FFZ1
 Music = NONE
 TypeOfLevel = Singleplayer,Co-op
-NextLevel = 99
+NextLevel = A2
 SkyNum = 22
 RecordAttack = true
 LevelSelect = 1
 SaveGame = true
 MusicInter = _SUPCL
+WideIcon = true
 
 Level AA
 Levelname = Central Warp-Point
-SubTitle = hub or smth idk
+SubTitle = Mall of Duty
 Act = 0
 Keywords = HUB01
 Music = HUB01
@@ -1306,21 +714,7 @@ NextLevel = 1
 SkyNum = 100
 LevelSelect = 1
 SaveGame = true
-
-#--SNIGLEPLAYER STAGES--
-Level A2
-Levelname = Angel's Heaven
-SubTitle = [INSERT FUNNY JOKE HERE]
-Act = 0
-Keywords = AHZ1
-Music = AHZ1
-NextLevel = TITLE
-TypeOfLevel = Singleplayer,Co-op,Competition,Race
-SkyNum = 69
-RecordAttack = true
-LevelSelect = 2
-SaveGame = true
-
+WideIcon = true
 
 #--EMBLEMS & UNLOCKABLE STUFF--
 #--Sunset Flowers Zone Act 1--
@@ -1448,6 +842,61 @@ MapNum = 3
 Sprite = S
 Color = SKINCOLOR_BROWN
 
+#--Forgotten Hardware Zone Act 1--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 4
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 4
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 4
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 4
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 4
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 4
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 4
+Sprite = R
+Color = SKINCOLOR_SANDY
+
 #--Forgotten Hardware Zone Act 2--
 Emblem
 Hint = HINT 1
@@ -1457,14 +906,1098 @@ MapNum = 5
 Sprite = A
 Color = SKINCOLOR_BLUE
 
-#--Shattered Nightmares Zone--
 Emblem
-Hint = Darkness hides this one.
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 5
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 5
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 5
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 5
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 5
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 5
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Forgotten Hardware Zone Act 3--
+Emblem
+Type = Time
+Var = 35*TICRATE
+MapNum = 6
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Score
+Var = 10000
+MapNum = 6
+Sprite = S
+Color = SKINCOLOR_BROWN
+
+#--Drenched Caverns Zone Act 1--
+Emblem
+Hint = HINT 1
 Type = Global
 Tag = 0
-MapNum = 34
+MapNum = 7
 Sprite = A
 Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 7
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 7
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 7
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 7
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 7
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 7
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Drenched Caverns Zone Act 2--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 8
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 8
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 8
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 8
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 8
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 8
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 8
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Drenched Caverns Zone Act 3--
+Emblem
+Type = Time
+Var = 35*TICRATE
+MapNum = 9
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Score
+Var = 10000
+MapNum = 9
+Sprite = S
+Color = SKINCOLOR_BROWN
+
+#--Tubular Tunnels Zone Act 1--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 10
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 10
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 10
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 10
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 10
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 10
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 10
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Tubular Tunnels Zone Act 2--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 11
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 11
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 11
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 11
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 11
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 11
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 11
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Tubular Tunnels Zone Act 3--
+Emblem
+Type = Time
+Var = 35*TICRATE
+MapNum = 12
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Score
+Var = 10000
+MapNum = 12
+Sprite = S
+Color = SKINCOLOR_BROWN
+
+#--Cloudy Cliff-Face Zone Act 1--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 13
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 13
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 13
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 13
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 13
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 13
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 13
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Cloudy Cliff-Face Zone Act 2--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 14
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 14
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 14
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 14
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 14
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 14
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 14
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Cloudy Cliff-Face Zone Act 3--
+Emblem
+Type = Time
+Var = 35*TICRATE
+MapNum = 15
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Score
+Var = 10000
+MapNum = 15
+Sprite = S
+Color = SKINCOLOR_BROWN
+
+#--Blazing Vermilion Zone Act 1--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 16
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 16
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 16
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 16
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 16
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 16
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 16
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Blazing Vermilion Zone Act 2--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 17
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 17
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 17
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 17
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 17
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 17
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 17
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Blazing Vermilion Zone Act 3--
+Emblem
+Type = Time
+Var = 35*TICRATE
+MapNum = 18
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Score
+Var = 10000
+MapNum = 18
+Sprite = S
+Color = SKINCOLOR_BROWN
+
+#--Forsaken Square Zone Act 1--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 19
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 19
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 19
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 19
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 19
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 19
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 19
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Forsaken Square Zone Act 2--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 20
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 20
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 20
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 20
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 20
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 20
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 20
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Forsaken Square Zone Act 3--
+Emblem
+Type = Time
+Var = 35*TICRATE
+MapNum = 21
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Score
+Var = 10000
+MapNum = 21
+Sprite = S
+Color = SKINCOLOR_BROWN
+
+#--'Osphere Doomship Zone Act 1--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 22
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 22
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 22
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 22
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 22
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 22
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 22
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--'Osphere Doomship Zone Act 2--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 23
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 23
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 23
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 23
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 23
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 23
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 23
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--'Osphere Doomship Zone Act 3--
+Emblem
+Type = Time
+Var = 35*TICRATE
+MapNum = 24
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Score
+Var = 10000
+MapNum = 24
+Sprite = S
+Color = SKINCOLOR_BROWN
+
+#--Frantic Geode Zone Act 1--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 25
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 25
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 25
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 25
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 25
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 25
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 25
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Frantic Geode Zone Act 2--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 26
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 26
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 26
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 26
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 26
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 26
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 26
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Frantic Geode Zone Act 3--
+Emblem
+Type = Time
+Var = 35*TICRATE
+MapNum = 27
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Score
+Var = 10000
+MapNum = 27
+Sprite = S
+Color = SKINCOLOR_BROWN
+
+#--Frantic Geode Zone Act 4--
+Emblem
+Hint = You finally defeated that evil egg-head! Get this emblem as your reward!
+Type = Global
+Tag = 0
+MapNum = 28
+Sprite = S
+Color = SKINCOLOR_GOLDEN
+
+Emblem
+Type = Time
+Var = 35*TICRATE
+MapNum = 28
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+#--Final Fright--
+Emblem
+Type = Score
+Var = 10000
+MapNum = A1
+Sprite = S
+Color = SKINCOLOR_BROWN
+
+Emblem
+Type = Time
+Var = 1000*TICRATE
+MapNum = A1
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Score
+Var = 10000
+MapNum = 28
+Sprite = S
+Color = SKINCOLOR_BROWN
+
+#--Credits--
+Emblem
+Hint = Is this really the end? maybe for this adventure, but not for you...
+Type = Global
+Tag = 0
+MapNum = A2
+Sprite = S
+Color = SKINCOLOR_GOLDEN
+
+#--Hidden Palace Zone--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 29
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 29
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 29
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 29
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 29
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 29
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 29
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Ween-a-Trickery Zone--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 30
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 30
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 30
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 30
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 30
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 30
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 30
+Sprite = R
+Color = SKINCOLOR_SANDY
 
 #--Last Holiday Zone--
 Emblem
@@ -1518,6 +2051,391 @@ Emblem
 Type = Rings
 Var = 575
 MapNum = 31
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Lovely Air Zone--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 32
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 32
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 32
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 32
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 32
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 32
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 32
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Knothole Coast Zone--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 33
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 33
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 33
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 33
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 33
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 33
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 33
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Shattered Nightmares Zone--
+Emblem
+Hint = Darkness hides this one.
+Type = Global
+Tag = 0
+MapNum = 34
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 34
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 34
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 34
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 34
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 34
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 34
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Fortress Yolk Zone--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 35
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 35
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 35
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 35
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 35
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 35
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 35
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Deserted Valley Zone--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 36
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 36
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 36
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 36
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 36
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 36
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 36
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Jungle Woods Zone--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 37
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 37
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 37
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 37
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 37
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 37
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 37
+Sprite = R
+Color = SKINCOLOR_SANDY
+
+#--Angel's Heaven Zone--
+Emblem
+Hint = HINT 1
+Type = Global
+Tag = 0
+MapNum = 38
+Sprite = A
+Color = SKINCOLOR_BLUE
+
+Emblem
+Hint = HINT 2
+Type = Global
+Tag = 1
+MapNum = 38
+Sprite = B
+Color = SKINCOLOR_RED
+
+Emblem
+Hint = HINT 3
+Type = Global
+Tag = 2
+MapNum = 38
+Sprite = C
+Color = SKINCOLOR_PURPLE
+
+Emblem
+Hint = HINT 4
+Type = Global
+Tag = 3
+MapNum = 38
+Sprite = D
+Color = SKINCOLOR_ORANGE
+
+Emblem
+Hint = HINT 5
+Type = Global
+Tag = 4
+MapNum = 38
+Sprite = E
+Color = SKINCOLOR_EMERALD
+
+Emblem
+Type = Time
+Var = 100*TICRATE
+MapNum = 38
+Sprite = T
+Color = SKINCOLOR_CLOUDY
+
+Emblem
+Type = Rings
+Var = 200
+MapNum = 38
 Sprite = R
 Color = SKINCOLOR_SANDY
 
