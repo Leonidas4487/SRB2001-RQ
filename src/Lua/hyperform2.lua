@@ -95,7 +95,7 @@ addHook("PlayerThink",  function(player)
 			or pmo.color == SKINCOLOR_SUPERTAN1 or SKINCOLOR_SUPERTAN2 or pmo.color == SKINCOLOR_SUPERTAN3 or pmo.color == SKINCOLOR_SUPERTAN4 or pmo.color == SKINCOLOR_SUPERTAN5 or p.scolor == "default")
 		    	if hyperskincolor.value == 1
 		     	    pmo.color = (SKINCOLOR_SUPERSILVER1 + 5*((leveltime >> 1) % 7))
-		    	elseif hyperskincolor.value == 2	
+		    	elseif hyperskincolor.value == 2
 		     	    pmo.color = SKINCOLOR_HYPERFORM1
 				end
 			end

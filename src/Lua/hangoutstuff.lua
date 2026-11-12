@@ -63,7 +63,7 @@ end)
 
 COM_AddCommand("dr_changetrack", function(player)
 	if not netgame or gametype == GT_COOP or gametype == GT_COMPETITION or gametype == GT_RACE or gamestate ~= GS_LEVEL then
-		CONS_Printf(player, "\x82"+"ERROR:\x80 This command only works if you are on a netgame with a valid gametype. Invalid gametypes include: Co-op, Race and Competition.")
+		CONS_Printf(player, "\x82"+"ERROR:\x80 This command only works if you're on a netgame with a valid gametype. Invalid gametypes include: Co-op, Race and Competition.")
 		S_StartSound(player.mo, sfx_adderr)
 		return
 	end

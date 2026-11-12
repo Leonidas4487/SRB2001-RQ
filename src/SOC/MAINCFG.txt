@@ -615,6 +615,18 @@ LevelSelect = 2
 SaveGame = true
 WideIcon = true
 
+#--HANGOUT STAGES--
+Level 39
+Levelname = Sunset Flowers
+SubTitle = Picnic Time!
+Act = 0
+Keywords = SFZH
+Music = SFZ1
+NextLevel = 40
+TypeOfLevel = Hangout
+SkyNum = 4
+SaveGame = true
+
 #--SPECIAL STAGEES--
 Level B1
 Levelname = Special Stage
