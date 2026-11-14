@@ -170,7 +170,7 @@ Soundtestcond = 28
 BPM = 140
 
 Lump FINALB
-Title = Final Fright
+Title = Final_Fright
 Authors = "Leonidas4487"
 Soundtestpage = 2
 Soundtestcond = A1
@@ -180,7 +180,7 @@ Lump CREDIS
 Title = Credits
 Authors = "Leonidas4487"
 Soundtestpage = 2
-Soundtestcond = 28
+Soundtestcond = A2
 BPM = 100
 
 Lump _SUPER
@@ -197,30 +197,142 @@ Soundtestpage = 2
 Soundtestcond = 0
 BPM = 150
 
-Lump S-SFZ1
-Title = Meet-up!_(SFZ1)
+Lump HPZ1
+Title = Hidden_Palace_1
 Authors = "Leonidas4487"
 Soundtestpage = 2
-Soundtestcond = 0
+Soundtestcond = 29
+BPM = 100
+
+Lump HPZ2
+Title = Hidden_Palace_2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 29
+BPM = 100
+
+Lump WATZ1
+Title = Ween-a-Trickery_1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 30
+BPM = 100
+
+Lump WATZ2
+Title = Ween-a-Trickery_2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 30
+BPM = 100
+
+Lump LHZ1
+Title = Last_Holiday_1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 31
+BPM = 105
+
+Lump LHZ2
+Title = Last_Holiday_2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 31
+BPM = 125
+
+Lump LAZ1
+Title = Lovely_Air_1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 32
+BPM = 100
+
+Lump LAZ2
+Title = Lovely_Air_2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 32
+BPM = 100
+
+Lump KSFZ1
+Title = Meet-up!_-_SFZ1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 1
 BPM = 94
 
-Lump S-SFZ2
-Title = Meet-up!_(SFZ2)
+Lump KSFZ2
+Title = Meet-up!_-_SFZ2
 Authors = "Leonidas4487"
 Soundtestpage = 2
-Soundtestcond = 0
+Soundtestcond = 2
 BPM = 94
 
-Lump S-FHZ1
-Title = Meet-up!_(FHZ1)
+Lump KFHZ1
+Title = Meet-up!_-_FHZ1
 Authors = "Leonidas4487"
 Soundtestpage = 2
-Soundtestcond = 0
+Soundtestcond = 3
 BPM = 94
 
-Lump S-FHZ2
-Title = Meet-up!_(FHZ2)
+Lump KFHZ2
+Title = Meet-up!_-_FHZ2
 Authors = "Leonidas4487"
 Soundtestpage = 2
-Soundtestcond = 0
+Soundtestcond = 4
+BPM = 94
+
+Lump KHPZ1
+Title = Meet-up!_-_HPZ1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 29
+BPM = 94
+
+Lump KHPZ2
+Title = Meet-up!_-_HPZ2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 29
+BPM = 94
+
+Lump KWATZ1
+Title = Meet-up!_-_WATZ1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 30
+BPM = 94
+
+Lump KWATZ2
+Title = Meet-up!_-_WATZ2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 30
+BPM = 94
+
+Lump KLHZ1
+Title = Meet-up!_-_LHZ1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 31
+BPM = 94
+
+Lump KLHZ2
+Title = Meet-up!_-_LHZ2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 31
+BPM = 94
+
+Lump KLAZ1
+Title = Meet-up!_-_LAZ1
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 32
+BPM = 94
+
+Lump KLAZ2
+Title = Meet-up!_-_LAZ2
+Authors = "Leonidas4487"
+Soundtestpage = 2
+Soundtestcond = 32
 BPM = 94
